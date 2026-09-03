@@ -1,0 +1,744 @@
+Classfile /home/blahhaha253/dev-env/java/sexmod-deobfuscate/fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/class_files/Main.class
+  Last modified Jan 6, 2024; size 5420 bytes
+  SHA-256 checksum 67f73e9f90ae0ac51b1c976aff3c11d96adc3a61ea46648d18b0bf0e07a923ce
+  Compiled from "Main.java"
+public class com.trolmastercard.sexmod.Main
+  minor version: 0
+  major version: 52
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #9                          // com/trolmastercard/sexmod/Main
+  super_class: #11                        // java/lang/Object
+  interfaces: 0, fields: 3, methods: 11, attributes: 3
+Constant pool:
+    #1 = String             #171          // config
+    #2 = String             #179          // config/sexmod.json
+    #3 = String             #191          // {\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}
+    #4 = String             #225          // shouldGenBuildings
+    #5 = String             #252          // shouldLoadOtherSkins
+    #6 = String             #253          // allowFlying
+    #7 = String             #15           // sexmod
+    #8 = Utf8               com/trolmastercard/sexmod/Main
+    #9 = Class              #8            // com/trolmastercard/sexmod/Main
+   #10 = Utf8               java/lang/Object
+   #11 = Class              #10           // java/lang/Object
+   #12 = Utf8               Main.java
+   #13 = Utf8               Lnet/minecraftforge/fml/common/Mod;
+   #14 = Utf8               modid
+   #15 = Utf8               sexmod
+   #16 = Utf8               name
+   #17 = Utf8               Fapcraft
+   #18 = Utf8               version
+   #19 = Utf8               1.1.0
+   #20 = Utf8               dependencies
+   #21 = Utf8               after:geckolib
+   #22 = Utf8               net/minecraftforge/fml/common/Mod$Instance
+   #23 = Class              #22           // net/minecraftforge/fml/common/Mod$Instance
+   #24 = Utf8               net/minecraftforge/fml/common/Mod
+   #25 = Class              #24           // net/minecraftforge/fml/common/Mod
+   #26 = Utf8               Instance
+   #27 = Utf8               net/minecraftforge/fml/common/Mod$EventHandler
+   #28 = Class              #27           // net/minecraftforge/fml/common/Mod$EventHandler
+   #29 = Utf8               EventHandler
+   #30 = Utf8               instance
+   #31 = Utf8               Lcom/trolmastercard/sexmod/Main;
+   #32 = Utf8               Lnet/minecraftforge/fml/common/Mod$Instance;
+   #33 = Utf8               proxy
+   #34 = Utf8               Lcom/trolmastercard/sexmod/CommonProxy;
+   #35 = Utf8               Lnet/minecraftforge/fml/common/SidedProxy;
+   #36 = Utf8               clientSide
+   #37 = Utf8               com.trolmastercard.sexmod.ClientProxy
+   #38 = Utf8               serverSide
+   #39 = Utf8               com.trolmastercard.sexmod.CommonProxy
+   #40 = Utf8               LOGGER
+   #41 = Utf8               Lorg/apache/logging/log4j/Logger;
+   #42 = Utf8               <init>
+   #43 = Utf8               ()V
+   #44 = NameAndType        #42:#43       // "<init>":()V
+   #45 = Methodref          #11.#44       // java/lang/Object."<init>":()V
+   #46 = Utf8               ZKM13.0.0
+   #47 = Utf8               preInit
+   #48 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   #49 = Utf8               Lnet/minecraftforge/fml/common/Mod$EventHandler;
+   #50 = Utf8               software/bernie/geckolib3/GeckoLib
+   #51 = Class              #50           // software/bernie/geckolib3/GeckoLib
+   #52 = Utf8               initialize
+   #53 = NameAndType        #52:#43       // initialize:()V
+   #54 = Methodref          #51.#53       // software/bernie/geckolib3/GeckoLib.initialize:()V
+   #55 = NameAndType        #33:#34       // proxy:Lcom/trolmastercard/sexmod/CommonProxy;
+   #56 = Fieldref           #9.#55        // com/trolmastercard/sexmod/Main.proxy:Lcom/trolmastercard/sexmod/CommonProxy;
+   #57 = Utf8               com/trolmastercard/sexmod/CommonProxy
+   #58 = Class              #57           // com/trolmastercard/sexmod/CommonProxy
+   #59 = Utf8               preInitRegistries
+   #60 = NameAndType        #59:#48       // preInitRegistries:(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   #61 = Methodref          #58.#60       // com/trolmastercard/sexmod/CommonProxy.preInitRegistries:(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   #62 = Utf8               init
+   #63 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   #64 = Utf8               java/io/IOException
+   #65 = Class              #64           // java/io/IOException
+   #66 = Utf8               initRegistries
+   #67 = NameAndType        #66:#63       // initRegistries:(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   #68 = Methodref          #58.#67       // com/trolmastercard/sexmod/CommonProxy.initRegistries:(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   #69 = Utf8               postInit
+   #70 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   #71 = NameAndType        #69:#70       // postInit:(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   #72 = Methodref          #58.#71       // com/trolmastercard/sexmod/CommonProxy.postInit:(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   #73 = Utf8               onWorldClosed
+   #74 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLServerStoppedEvent;)V
+   #75 = Utf8               com/trolmastercard/sexmod/em
+   #76 = Class              #75           // com/trolmastercard/sexmod/em
+   #77 = Utf8               ad
+   #78 = Utf8               ()Ljava/util/List;
+   #79 = NameAndType        #77:#78       // ad:()Ljava/util/List;
+   #80 = Methodref          #76.#79       // com/trolmastercard/sexmod/em.ad:()Ljava/util/List;
+   #81 = Utf8               java/util/List
+   #82 = Class              #81           // java/util/List
+   #83 = Utf8               clear
+   #84 = NameAndType        #83:#43       // clear:()V
+   #85 = InterfaceMethodref #82.#84       // java/util/List.clear:()V
+   #86 = Utf8               com/trolmastercard/sexmod/ax
+   #87 = Class              #86           // com/trolmastercard/sexmod/ax
+   #88 = Methodref          #87.#98       // com/trolmastercard/sexmod/ax.a:()V
+   #89 = Utf8               com/trolmastercard/sexmod/ff
+   #90 = Class              #89           // com/trolmastercard/sexmod/ff
+   #91 = Utf8               aY
+   #92 = Utf8               Ljava/util/List;
+   #93 = NameAndType        #91:#92       // aY:Ljava/util/List;
+   #94 = Fieldref           #90.#93       // com/trolmastercard/sexmod/ff.aY:Ljava/util/List;
+   #95 = Utf8               com/trolmastercard/sexmod/v
+   #96 = Class              #95           // com/trolmastercard/sexmod/v
+   #97 = Utf8               a
+   #98 = NameAndType        #97:#43       // a:()V
+   #99 = Methodref          #96.#98       // com/trolmastercard/sexmod/v.a:()V
+  #100 = Utf8               com/trolmastercard/sexmod/g3
+  #101 = Class              #100          // com/trolmastercard/sexmod/g3
+  #102 = Utf8               b
+  #103 = Utf8               ()Lcom/trolmastercard/sexmod/g3;
+  #104 = NameAndType        #102:#103     // b:()Lcom/trolmastercard/sexmod/g3;
+  #105 = Methodref          #101.#104     // com/trolmastercard/sexmod/g3.b:()Lcom/trolmastercard/sexmod/g3;
+  #106 = Methodref          #101.#98      // com/trolmastercard/sexmod/g3.a:()V
+  #107 = Utf8               com/trolmastercard/sexmod/fs
+  #108 = Class              #107          // com/trolmastercard/sexmod/fs
+  #109 = Methodref          #108.#98      // com/trolmastercard/sexmod/fs.a:()V
+  #110 = Utf8               com/trolmastercard/sexmod/br
+  #111 = Class              #110          // com/trolmastercard/sexmod/br
+  #112 = Utf8               e
+  #113 = Utf8               Z
+  #114 = NameAndType        #112:#113     // e:Z
+  #115 = Fieldref           #111.#114     // com/trolmastercard/sexmod/br.e:Z
+  #116 = Utf8               com/trolmastercard/sexmod/bj
+  #117 = Class              #116          // com/trolmastercard/sexmod/bj
+  #118 = Methodref          #117.#98      // com/trolmastercard/sexmod/bj.a:()V
+  #119 = Utf8               net/minecraftforge/fml/common/FMLCommonHandler
+  #120 = Class              #119          // net/minecraftforge/fml/common/FMLCommonHandler
+  #121 = Utf8               ()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+  #122 = NameAndType        #30:#121      // instance:()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+  #123 = Methodref          #120.#122     // net/minecraftforge/fml/common/FMLCommonHandler.instance:()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+  #124 = Utf8               getSide
+  #125 = Utf8               ()Lnet/minecraftforge/fml/relauncher/Side;
+  #126 = NameAndType        #124:#125     // getSide:()Lnet/minecraftforge/fml/relauncher/Side;
+  #127 = Methodref          #120.#126     // net/minecraftforge/fml/common/FMLCommonHandler.getSide:()Lnet/minecraftforge/fml/relauncher/Side;
+  #128 = Utf8               net/minecraftforge/fml/relauncher/Side
+  #129 = Class              #128          // net/minecraftforge/fml/relauncher/Side
+  #130 = Utf8               CLIENT
+  #131 = Utf8               Lnet/minecraftforge/fml/relauncher/Side;
+  #132 = NameAndType        #130:#131     // CLIENT:Lnet/minecraftforge/fml/relauncher/Side;
+  #133 = Fieldref           #129.#132     // net/minecraftforge/fml/relauncher/Side.CLIENT:Lnet/minecraftforge/fml/relauncher/Side;
+  #134 = Utf8               clientReset
+  #135 = NameAndType        #134:#43      // clientReset:()V
+  #136 = Methodref          #9.#135       // com/trolmastercard/sexmod/Main.clientReset:()V
+  #137 = Utf8               onWorldStart
+  #138 = Utf8               (Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+  #139 = Utf8               com/trolmastercard/sexmod/gn
+  #140 = Class              #139          // com/trolmastercard/sexmod/gn
+  #141 = Utf8               Lcom/trolmastercard/sexmod/gn;
+  #142 = NameAndType        #97:#141      // a:Lcom/trolmastercard/sexmod/gn;
+  #143 = Fieldref           #140.#142     // com/trolmastercard/sexmod/gn.a:Lcom/trolmastercard/sexmod/gn;
+  #144 = Utf8               net/minecraftforge/fml/common/event/FMLServerStartingEvent
+  #145 = Class              #144          // net/minecraftforge/fml/common/event/FMLServerStartingEvent
+  #146 = Utf8               registerServerCommand
+  #147 = Utf8               (Lnet/minecraft/command/ICommand;)V
+  #148 = NameAndType        #146:#147     // registerServerCommand:(Lnet/minecraft/command/ICommand;)V
+  #149 = Methodref          #145.#148     // net/minecraftforge/fml/common/event/FMLServerStartingEvent.registerServerCommand:(Lnet/minecraft/command/ICommand;)V
+  #150 = Utf8               com/trolmastercard/sexmod/aw
+  #151 = Class              #150          // com/trolmastercard/sexmod/aw
+  #152 = Utf8               Lcom/trolmastercard/sexmod/aw;
+  #153 = NameAndType        #97:#152      // a:Lcom/trolmastercard/sexmod/aw;
+  #154 = Fieldref           #151.#153     // com/trolmastercard/sexmod/aw.a:Lcom/trolmastercard/sexmod/aw;
+  #155 = Utf8               Lnet/minecraftforge/fml/relauncher/SideOnly;
+  #156 = Utf8               value
+  #157 = Utf8               com/trolmastercard/sexmod/gm
+  #158 = Class              #157          // com/trolmastercard/sexmod/gm
+  #159 = Methodref          #158.#98      // com/trolmastercard/sexmod/gm.a:()V
+  #160 = Utf8               com/trolmastercard/sexmod/d6
+  #161 = Class              #160          // com/trolmastercard/sexmod/d6
+  #162 = Utf8               c
+  #163 = NameAndType        #162:#43      // c:()V
+  #164 = Methodref          #161.#163     // com/trolmastercard/sexmod/d6.c:()V
+  #165 = Utf8               registerReplacedRenderers
+  #166 = Utf8               setConfigs
+  #167 = Utf8               java/lang/Throwable
+  #168 = Class              #167          // java/lang/Throwable
+  #169 = Utf8               java/io/File
+  #170 = Class              #169          // java/io/File
+  #171 = Utf8               config
+  #172 = Utf8               (Ljava/lang/String;)V
+  #173 = NameAndType        #42:#172      // "<init>":(Ljava/lang/String;)V
+  #174 = Methodref          #170.#173     // java/io/File."<init>":(Ljava/lang/String;)V
+  #175 = Utf8               mkdir
+  #176 = Utf8               ()Z
+  #177 = NameAndType        #175:#176     // mkdir:()Z
+  #178 = Methodref          #170.#177     // java/io/File.mkdir:()Z
+  #179 = Utf8               config/sexmod.json
+  #180 = Utf8               exists
+  #181 = NameAndType        #180:#176     // exists:()Z
+  #182 = Methodref          #170.#181     // java/io/File.exists:()Z
+  #183 = Utf8               createNewFile
+  #184 = NameAndType        #183:#176     // createNewFile:()Z
+  #185 = Methodref          #170.#184     // java/io/File.createNewFile:()Z
+  #186 = Utf8               java/io/FileWriter
+  #187 = Class              #186          // java/io/FileWriter
+  #188 = Utf8               (Ljava/io/File;)V
+  #189 = NameAndType        #42:#188      // "<init>":(Ljava/io/File;)V
+  #190 = Methodref          #187.#189     // java/io/FileWriter."<init>":(Ljava/io/File;)V
+  #191 = Utf8               {\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}
+  #192 = Utf8               write
+  #193 = NameAndType        #192:#172     // write:(Ljava/lang/String;)V
+  #194 = Methodref          #187.#193     // java/io/FileWriter.write:(Ljava/lang/String;)V
+  #195 = Utf8               close
+  #196 = NameAndType        #195:#43      // close:()V
+  #197 = Methodref          #187.#196     // java/io/FileWriter.close:()V
+  #198 = Utf8               java/lang/StringBuilder
+  #199 = Class              #198          // java/lang/StringBuilder
+  #200 = Methodref          #199.#44      // java/lang/StringBuilder."<init>":()V
+  #201 = Utf8               java/io/BufferedReader
+  #202 = Class              #201          // java/io/BufferedReader
+  #203 = Utf8               java/io/FileReader
+  #204 = Class              #203          // java/io/FileReader
+  #205 = Methodref          #204.#189     // java/io/FileReader."<init>":(Ljava/io/File;)V
+  #206 = Utf8               (Ljava/io/Reader;)V
+  #207 = NameAndType        #42:#206      // "<init>":(Ljava/io/Reader;)V
+  #208 = Methodref          #202.#207     // java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+  #209 = Utf8               readLine
+  #210 = Utf8               ()Ljava/lang/String;
+  #211 = NameAndType        #209:#210     // readLine:()Ljava/lang/String;
+  #212 = Methodref          #202.#211     // java/io/BufferedReader.readLine:()Ljava/lang/String;
+  #213 = Utf8               append
+  #214 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #215 = NameAndType        #213:#214     // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #216 = Methodref          #199.#215     // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #217 = Methodref          #202.#196     // java/io/BufferedReader.close:()V
+  #218 = Utf8               addSuppressed
+  #219 = Utf8               (Ljava/lang/Throwable;)V
+  #220 = NameAndType        #218:#219     // addSuppressed:(Ljava/lang/Throwable;)V
+  #221 = Methodref          #168.#220     // java/lang/Throwable.addSuppressed:(Ljava/lang/Throwable;)V
+  #222 = Utf8               toString
+  #223 = NameAndType        #222:#210     // toString:()Ljava/lang/String;
+  #224 = Methodref          #199.#223     // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #225 = Utf8               shouldGenBuildings
+  #226 = Utf8               java/lang/String
+  #227 = Class              #226          // java/lang/String
+  #228 = Utf8               contains
+  #229 = Utf8               (Ljava/lang/CharSequence;)Z
+  #230 = NameAndType        #228:#229     // contains:(Ljava/lang/CharSequence;)Z
+  #231 = Methodref          #227.#230     // java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+  #232 = Utf8               delete
+  #233 = NameAndType        #232:#176     // delete:()Z
+  #234 = Methodref          #170.#233     // java/io/File.delete:()Z
+  #235 = Utf8               i
+  #236 = NameAndType        #235:#113     // i:Z
+  #237 = Fieldref           #101.#236     // com/trolmastercard/sexmod/g3.i:Z
+  #238 = Utf8               com/trolmastercard/sexmod/cv
+  #239 = Class              #238          // com/trolmastercard/sexmod/cv
+  #240 = Utf8               d
+  #241 = NameAndType        #240:#113     // d:Z
+  #242 = Fieldref           #239.#241     // com/trolmastercard/sexmod/cv.d:Z
+  #243 = Utf8               com/trolmastercard/sexmod/ei
+  #244 = Class              #243          // com/trolmastercard/sexmod/ei
+  #245 = Utf8               ag
+  #246 = NameAndType        #245:#113     // ag:Z
+  #247 = Fieldref           #244.#246     // com/trolmastercard/sexmod/ei.ag:Z
+  #248 = Utf8               indexOf
+  #249 = Utf8               (Ljava/lang/String;)I
+  #250 = NameAndType        #248:#249     // indexOf:(Ljava/lang/String;)I
+  #251 = Methodref          #227.#250     // java/lang/String.indexOf:(Ljava/lang/String;)I
+  #252 = Utf8               shouldLoadOtherSkins
+  #253 = Utf8               allowFlying
+  #254 = Utf8               charAt
+  #255 = Utf8               (I)C
+  #256 = NameAndType        #254:#255     // charAt:(I)C
+  #257 = Methodref          #227.#256     // java/lang/String.charAt:(I)C
+  #258 = Utf8               <clinit>
+  #259 = Utf8               org/apache/logging/log4j/LogManager
+  #260 = Class              #259          // org/apache/logging/log4j/LogManager
+  #261 = Utf8               getLogger
+  #262 = Utf8               (Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+  #263 = NameAndType        #261:#262     // getLogger:(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+  #264 = Methodref          #260.#263     // org/apache/logging/log4j/LogManager.getLogger:(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+  #265 = NameAndType        #40:#41       // LOGGER:Lorg/apache/logging/log4j/Logger;
+  #266 = Fieldref           #9.#265       // com/trolmastercard/sexmod/Main.LOGGER:Lorg/apache/logging/log4j/Logger;
+  #267 = Utf8               RuntimeVisibleAnnotations
+  #268 = Utf8               Code
+  #269 = Utf8               Exceptions
+  #270 = Utf8               StackMapTable
+  #271 = Utf8               InnerClasses
+  #272 = Utf8               SourceFile
+  #273 = Class              #274          // java/lang/RuntimeException
+  #274 = Utf8               java/lang/RuntimeException
+  #275 = Utf8               (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+  #276 = NameAndType        #97:#275      // a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+  #277 = Methodref          #9.#276       // com/trolmastercard/sexmod/Main.a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+  #278 = Class              #279          // java/io/Serializable
+  #279 = Utf8               java/io/Serializable
+{
+  public static com.trolmastercard.sexmod.Main instance;
+    descriptor: Lcom/trolmastercard/sexmod/Main;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    RuntimeVisibleAnnotations:
+      0: #32()
+        net.minecraftforge.fml.common.Mod$Instance
+
+  public static com.trolmastercard.sexmod.CommonProxy proxy;
+    descriptor: Lcom/trolmastercard/sexmod/CommonProxy;
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    RuntimeVisibleAnnotations:
+      0: #35(#36=s#37,#38=s#39)
+        net.minecraftforge.fml.common.SidedProxy(
+          clientSide="com.trolmastercard.sexmod.ClientProxy"
+          serverSide="com.trolmastercard.sexmod.CommonProxy"
+        )
+
+  public static final org.apache.logging.log4j.Logger LOGGER;
+    descriptor: Lorg/apache/logging/log4j/Logger;
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+
+  public com.trolmastercard.sexmod.Main();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #45                 // Method java/lang/Object."<init>":()V
+         4: return
+
+  public void preInit(net.minecraftforge.fml.common.event.FMLPreInitializationEvent);
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: invokestatic  #54                 // Method software/bernie/geckolib3/GeckoLib.initialize:()V
+         3: getstatic     #56                 // Field proxy:Lcom/trolmastercard/sexmod/CommonProxy;
+         6: aload_1
+         7: invokevirtual #61                 // Method com/trolmastercard/sexmod/CommonProxy.preInitRegistries:(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+        10: return
+    RuntimeVisibleAnnotations:
+      0: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  public void init(net.minecraftforge.fml.common.event.FMLInitializationEvent) throws java.io.IOException;
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: getstatic     #56                 // Field proxy:Lcom/trolmastercard/sexmod/CommonProxy;
+         3: aload_1
+         4: invokevirtual #68                 // Method com/trolmastercard/sexmod/CommonProxy.initRegistries:(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+         7: return
+    Exceptions:
+      throws java.io.IOException
+    RuntimeVisibleAnnotations:
+      0: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  public void postInit(net.minecraftforge.fml.common.event.FMLPostInitializationEvent) throws java.io.IOException;
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: getstatic     #56                 // Field proxy:Lcom/trolmastercard/sexmod/CommonProxy;
+         3: aload_1
+         4: invokevirtual #72                 // Method com/trolmastercard/sexmod/CommonProxy.postInit:(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+         7: return
+    Exceptions:
+      throws java.io.IOException
+    RuntimeVisibleAnnotations:
+      0: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  public static void onWorldClosed(net.minecraftforge.fml.common.event.FMLServerStoppedEvent);
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLServerStoppedEvent;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: invokestatic  #80                 // Method com/trolmastercard/sexmod/em.ad:()Ljava/util/List;
+         3: invokeinterface #85,  1           // InterfaceMethod java/util/List.clear:()V
+         8: invokestatic  #88                 // Method com/trolmastercard/sexmod/ax.a:()V
+        11: getstatic     #94                 // Field com/trolmastercard/sexmod/ff.aY:Ljava/util/List;
+        14: invokeinterface #85,  1           // InterfaceMethod java/util/List.clear:()V
+        19: invokestatic  #99                 // Method com/trolmastercard/sexmod/v.a:()V
+        22: invokestatic  #105                // Method com/trolmastercard/sexmod/g3.b:()Lcom/trolmastercard/sexmod/g3;
+        25: invokevirtual #106                // Method com/trolmastercard/sexmod/g3.a:()V
+        28: invokestatic  #109                // Method com/trolmastercard/sexmod/fs.a:()V
+        31: iconst_0
+        32: putstatic     #115                // Field com/trolmastercard/sexmod/br.e:Z
+        35: invokestatic  #118                // Method com/trolmastercard/sexmod/bj.a:()V
+        38: invokestatic  #123                // Method net/minecraftforge/fml/common/FMLCommonHandler.instance:()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+        41: invokevirtual #127                // Method net/minecraftforge/fml/common/FMLCommonHandler.getSide:()Lnet/minecraftforge/fml/relauncher/Side;
+        44: getstatic     #133                // Field net/minecraftforge/fml/relauncher/Side.CLIENT:Lnet/minecraftforge/fml/relauncher/Side;
+        47: if_acmpne     60
+        50: invokestatic  #136                // Method clientReset:()V
+        53: goto          60
+        56: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+        59: athrow
+        60: return
+      Exception table:
+         from    to  target type
+             0    53    56   Class java/lang/RuntimeException
+      StackMapTable: number_of_entries = 2
+        frame_type = 120 /* same_locals_1_stack_item */
+          stack = [ class java/lang/RuntimeException ]
+        frame_type = 3 /* same */
+    RuntimeVisibleAnnotations:
+      0: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  public static void onWorldStart(net.minecraftforge.fml.common.event.FMLServerStartingEvent);
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: getstatic     #143                // Field com/trolmastercard/sexmod/gn.a:Lcom/trolmastercard/sexmod/gn;
+         4: invokevirtual #149                // Method net/minecraftforge/fml/common/event/FMLServerStartingEvent.registerServerCommand:(Lnet/minecraft/command/ICommand;)V
+         7: aload_0
+         8: getstatic     #154                // Field com/trolmastercard/sexmod/aw.a:Lcom/trolmastercard/sexmod/aw;
+        11: invokevirtual #149                // Method net/minecraftforge/fml/common/event/FMLServerStartingEvent.registerServerCommand:(Lnet/minecraft/command/ICommand;)V
+        14: return
+    RuntimeVisibleAnnotations:
+      0: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  static void clientReset();
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=0, locals=0, args_size=0
+         0: invokestatic  #159                // Method com/trolmastercard/sexmod/gm.a:()V
+         3: invokestatic  #164                // Method com/trolmastercard/sexmod/d6.c:()V
+         6: return
+    RuntimeVisibleAnnotations:
+      0: #155(#156=e#131.#130)
+        net.minecraftforge.fml.relauncher.SideOnly(
+          value=Lnet/minecraftforge/fml/relauncher/Side;.CLIENT
+        )
+
+  public void registerReplacedRenderers(net.minecraftforge.fml.common.event.FMLInitializationEvent);
+    descriptor: (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=2, args_size=2
+         0: invokestatic  #54                 // Method software/bernie/geckolib3/GeckoLib.initialize:()V
+         3: return
+    RuntimeVisibleAnnotations:
+      0: #155(#156=e#131.#130)
+        net.minecraftforge.fml.relauncher.SideOnly(
+          value=Lnet/minecraftforge/fml/relauncher/Side;.CLIENT
+        )
+      1: #49()
+        net.minecraftforge.fml.common.Mod$EventHandler
+
+  public static void setConfigs() throws java.io.IOException;
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=8, args_size=0
+         0: new           #170                // class java/io/File
+         3: dup
+         4: ldc           #1                  // String config
+         6: invokespecial #174                // Method java/io/File."<init>":(Ljava/lang/String;)V
+         9: astore_0
+        10: aload_0
+        11: invokevirtual #178                // Method java/io/File.mkdir:()Z
+        14: pop
+        15: new           #170                // class java/io/File
+        18: dup
+        19: ldc           #2                  // String config/sexmod.json
+        21: invokespecial #174                // Method java/io/File."<init>":(Ljava/lang/String;)V
+        24: astore_1
+        25: aload_1
+        26: invokevirtual #182                // Method java/io/File.exists:()Z
+        29: ifne          56
+        32: aload_1
+        33: invokevirtual #185                // Method java/io/File.createNewFile:()Z
+        36: pop
+        37: new           #187                // class java/io/FileWriter
+        40: dup
+        41: aload_1
+        42: invokespecial #190                // Method java/io/FileWriter."<init>":(Ljava/io/File;)V
+        45: astore_2
+        46: aload_2
+        47: ldc           #3                  // String {\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}
+        49: invokevirtual #194                // Method java/io/FileWriter.write:(Ljava/lang/String;)V
+        52: aload_2
+        53: invokevirtual #197                // Method java/io/FileWriter.close:()V
+        56: new           #199                // class java/lang/StringBuilder
+        59: dup
+        60: invokespecial #200                // Method java/lang/StringBuilder."<init>":()V
+        63: astore_2
+        64: new           #202                // class java/io/BufferedReader
+        67: dup
+        68: new           #204                // class java/io/FileReader
+        71: dup
+        72: aload_1
+        73: invokespecial #205                // Method java/io/FileReader."<init>":(Ljava/io/File;)V
+        76: invokespecial #208                // Method java/io/BufferedReader."<init>":(Ljava/io/Reader;)V
+        79: astore_3
+        80: aconst_null
+        81: astore        4
+        83: aload_3
+        84: invokevirtual #212                // Method java/io/BufferedReader.readLine:()Ljava/lang/String;
+        87: dup
+        88: astore        5
+        90: ifnull        107
+        93: aload_2
+        94: aload         5
+        96: invokevirtual #216                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        99: pop
+       100: goto          83
+       103: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       106: athrow
+       107: aload_3
+       108: ifnull        202
+       111: aload         4
+       113: ifnull        142
+       116: goto          123
+       119: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       122: athrow
+       123: aload_3
+       124: invokevirtual #217                // Method java/io/BufferedReader.close:()V
+       127: goto          202
+       130: astore        5
+       132: aload         4
+       134: aload         5
+       136: invokevirtual #221                // Method java/lang/Throwable.addSuppressed:(Ljava/lang/Throwable;)V
+       139: goto          202
+       142: aload_3
+       143: invokevirtual #217                // Method java/io/BufferedReader.close:()V
+       146: goto          202
+       149: astore        5
+       151: aload         5
+       153: astore        4
+       155: aload         5
+       157: athrow
+       158: astore        6
+       160: aload_3
+       161: ifnull        199
+       164: aload         4
+       166: ifnull        195
+       169: goto          176
+       172: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       175: athrow
+       176: aload_3
+       177: invokevirtual #217                // Method java/io/BufferedReader.close:()V
+       180: goto          199
+       183: astore        7
+       185: aload         4
+       187: aload         7
+       189: invokevirtual #221                // Method java/lang/Throwable.addSuppressed:(Ljava/lang/Throwable;)V
+       192: goto          199
+       195: aload_3
+       196: invokevirtual #217                // Method java/io/BufferedReader.close:()V
+       199: aload         6
+       201: athrow
+       202: aload_2
+       203: invokevirtual #224                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       206: astore_3
+       207: aload_3
+       208: ldc           #4                  // String shouldGenBuildings
+       210: invokevirtual #231                // Method java/lang/String.contains:(Ljava/lang/CharSequence;)Z
+       213: ifne          271
+       216: aload_1
+       217: invokevirtual #234                // Method java/io/File.delete:()Z
+       220: pop
+       221: new           #170                // class java/io/File
+       224: dup
+       225: ldc           #2                  // String config/sexmod.json
+       227: invokespecial #174                // Method java/io/File."<init>":(Ljava/lang/String;)V
+       230: astore_1
+       231: aload_1
+       232: invokevirtual #185                // Method java/io/File.createNewFile:()Z
+       235: pop
+       236: new           #187                // class java/io/FileWriter
+       239: dup
+       240: aload_1
+       241: invokespecial #190                // Method java/io/FileWriter."<init>":(Ljava/io/File;)V
+       244: astore        4
+       246: aload         4
+       248: ldc           #3                  // String {\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}
+       250: invokevirtual #194                // Method java/io/FileWriter.write:(Ljava/lang/String;)V
+       253: aload         4
+       255: invokevirtual #197                // Method java/io/FileWriter.close:()V
+       258: iconst_1
+       259: putstatic     #237                // Field com/trolmastercard/sexmod/g3.i:Z
+       262: iconst_0
+       263: putstatic     #242                // Field com/trolmastercard/sexmod/cv.d:Z
+       266: iconst_1
+       267: putstatic     #247                // Field com/trolmastercard/sexmod/ei.ag:Z
+       270: return
+       271: aload_3
+       272: ldc           #4                  // String shouldGenBuildings
+       274: invokevirtual #251                // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       277: istore        4
+       279: aload_3
+       280: ldc           #5                  // String shouldLoadOtherSkins
+       282: invokevirtual #251                // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       285: istore        5
+       287: aload_3
+       288: ldc           #6                  // String allowFlying
+       290: invokevirtual #251                // Method java/lang/String.indexOf:(Ljava/lang/String;)I
+       293: istore        6
+       295: bipush        116
+       297: aload_3
+       298: iload         4
+       300: bipush        20
+       302: iadd
+       303: invokevirtual #257                // Method java/lang/String.charAt:(I)C
+       306: if_icmpne     317
+       309: iconst_1
+       310: goto          318
+       313: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       316: athrow
+       317: iconst_0
+       318: putstatic     #237                // Field com/trolmastercard/sexmod/g3.i:Z
+       321: bipush        116
+       323: aload_3
+       324: iload         5
+       326: bipush        22
+       328: iadd
+       329: invokevirtual #257                // Method java/lang/String.charAt:(I)C
+       332: if_icmpne     343
+       335: iconst_1
+       336: goto          344
+       339: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       342: athrow
+       343: iconst_0
+       344: putstatic     #242                // Field com/trolmastercard/sexmod/cv.d:Z
+       347: bipush        116
+       349: aload_3
+       350: iload         6
+       352: bipush        13
+       354: iadd
+       355: invokevirtual #257                // Method java/lang/String.charAt:(I)C
+       358: if_icmpne     369
+       361: iconst_1
+       362: goto          370
+       365: invokestatic  #277                // Method a:(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+       368: athrow
+       369: iconst_0
+       370: putstatic     #247                // Field com/trolmastercard/sexmod/ei.ag:Z
+       373: return
+      Exception table:
+         from    to  target type
+            90   103   103   Class java/lang/Throwable
+           123   127   130   Class java/lang/Throwable
+            83   107   149   Class java/lang/Throwable
+            83   107   158   any
+           107   116   119   Class java/lang/Throwable
+           176   180   183   Class java/lang/Throwable
+           149   160   158   any
+           160   169   172   Class java/lang/Throwable
+           295   313   313   Class java/lang/Throwable
+           318   339   339   Class java/lang/Throwable
+           344   365   365   Class java/lang/Throwable
+      StackMapTable: number_of_entries = 26
+        frame_type = 253 /* append */
+          offset_delta = 56
+          locals = [ class java/io/File, class java/io/File ]
+        frame_type = 254 /* append */
+          offset_delta = 26
+          locals = [ class java/lang/StringBuilder, class java/io/BufferedReader, null ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 19
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/io/BufferedReader, null, class java/lang/String ]
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 75 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 70 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 11 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 6
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/io/BufferedReader, null ]
+          stack = [ class java/lang/Throwable ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 8
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/io/BufferedReader, class java/lang/Throwable ]
+          stack = [ class java/lang/Throwable ]
+        frame_type = 255 /* full_frame */
+          offset_delta = 13
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/io/BufferedReader, class java/lang/Throwable, top, class java/lang/Throwable ]
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 70 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 11 /* same */
+        frame_type = 3 /* same */
+        frame_type = 255 /* full_frame */
+          offset_delta = 2
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/io/BufferedReader, null, class java/io/Serializable ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 68
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/lang/String, null, class java/io/Serializable ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 41
+          locals = [ class java/io/File, class java/io/File, class java/lang/StringBuilder, class java/lang/String, int, int, int ]
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 84 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+        frame_type = 84 /* same_locals_1_stack_item */
+          stack = [ class java/lang/Throwable ]
+        frame_type = 3 /* same */
+        frame_type = 64 /* same_locals_1_stack_item */
+          stack = [ int ]
+    Exceptions:
+      throws java.io.IOException
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: ldc           #7                  // String sexmod
+         2: invokestatic  #264                // Method org/apache/logging/log4j/LogManager.getLogger:(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+         5: putstatic     #266                // Field LOGGER:Lorg/apache/logging/log4j/Logger;
+         8: return
+
+  private static java.lang.Throwable a(java.lang.Throwable);
+    descriptor: (Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    flags: (0x000a) ACC_PRIVATE, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: areturn
+}
+InnerClasses:
+  public static #26= #23 of #25;          // Instance=class net/minecraftforge/fml/common/Mod$Instance of class net/minecraftforge/fml/common/Mod
+  public static #29= #28 of #25;          // EventHandler=class net/minecraftforge/fml/common/Mod$EventHandler of class net/minecraftforge/fml/common/Mod
+SourceFile: "Main.java"
+RuntimeVisibleAnnotations:
+  0: #13(#14=s#15,#16=s#17,#18=s#19,#20=s#21)
+    net.minecraftforge.fml.common.Mod(
+      modid="sexmod"
+      name="Fapcraft"
+      version="1.1.0"
+      dependencies="after:geckolib"
+    )
