@@ -1,5 +1,17 @@
 package com.trolmastercard.sexmod;
 
+
+import net.minecraft.util.Mirror;
+import net.minecraft.world.WorldServer;
+import net.minecraft.world.gen.structure.template.PlacementSettings;
+import net.minecraftforge.fml.common.FMLCommonHandler;
+
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.gen.feature.WorldGenerator;
+import net.minecraft.world.gen.structure.template.Template;
+import net.minecraft.world.gen.structure.template.TemplateManager;
+
 import com.trolmastercard.sexmod.ax;
 import com.trolmastercard.sexmod.b4;
 import com.trolmastercard.sexmod.cj;
@@ -46,11 +58,11 @@ implements IWorldGenerator {
     // was final List<b.b> e = new ArrayList<b.b>();
     final List<StructConfig> structConfig = new ArrayList<StructConfig>();
     // was  final List<a$a> d = new ArrayList<a$a>();
-    final List<a$a> nbtInfo = new ArrayList<a$a>();
+    final List<StructRecord> nbtInfo = new ArrayList<StructRecord>();
     private static g3 g = null;
     static boolean c = true;
     public static g3 b() {
-        if (g != null) {
+        if (g == null) {
             g = new g3();
         }
         return g;
@@ -96,7 +108,7 @@ implements IWorldGenerator {
             String string2 = nBTTagCompound2.getString("sexmod:pos" + n);
             if ("".equals(string) || "".equals(string2)) break;
             int[] pos = parsePos(string2);
-            this.nbtInfo.add(new a$a(pos[0], pos[1], string));
+            this.nbtInfo.add(new StructRecord(pos[0], pos[1], string));
             ++n;
         }
     }
@@ -105,9 +117,9 @@ implements IWorldGenerator {
         nBTTagCompound.setTag(genTag, (NBTBase)new NBTTagCompound());
         NBTTagCompound nBTTagCompound2 = new NBTTagCompound();
         int n = 0;
-        for (a$a a$a2 : this.nbtInfo) {
-            nBTTagCompound2.setString("sexmod:name" + n, a$a2.name);
-            nBTTagCompound2.setString("sexmod:pos" + n++, combinePos(a$a.x a$a.y));
+        for (StructRecord StructRecord2 : this.nbtInfo) {
+            nBTTagCompound2.setString("sexmod:name" + n, StructRecord2.name);
+            nBTTagCompound2.setString("sexmod:pos" + n++, combinePos(StructRecord.x StructRecord.y));
         }
         nBTTagCompound.setTag(genTag, (NBTBase)nBTTagCompound2);
         return nBTTagCompound;
@@ -164,11 +176,11 @@ implements IWorldGenerator {
         int n6;
         int n7;
         int n8;
-        for (a$a a$a2 : this.nbtInfo) {
-            int n9 = n8 = a$a2.name.equals(struct.name) ? 156 : 62;
+        for (StructRecord StructRecord2 : this.nbtInfo) {
+            int n9 = n8 = StructRecord2.name.equals(struct.name) ? 156 : 62;
             float distance = (float)Math.sqrt(
-                (n - a$a2.x) * (n - a$a2.x) +
-                (n2 - a$a2.y) * (n2 - a$a2.y)
+                (n - StructRecord2.x) * (n - StructRecord2.x) +
+                (n2 - StructRecord2.y) * (n2 - StructRecord2.y)
             );
             if ((distance < (float)n8)) return;
         }
@@ -197,9 +209,8 @@ implements IWorldGenerator {
             return;
         }
         n5 = n11;
-        this.nbtInfo.add(new a$a(n, n2, struct.name));
-        // todo fix struct.b -> links to b4 generate method
-        struct.b.generate(world, random, new BlockPos(n8, n5, n7));
+        this.nbtInfo.add(new StructRecord(n, n2, struct.name));
+        struct.generate(world, random, new BlockPos(n8, n5, n7));
         if (!struct.requiresLand) {
             return;
         }
@@ -296,7 +307,8 @@ implements IWorldGenerator {
             blockPos = new Vec3i(0, 0, e3.ah.getZ() - 1);
             f = 90.0f;
         }
-        new b4("goblin").a(world, blockPos2.add(0, -1, 0).add((Vec3i)blockPos), rotation);
+        // DONT FORGET ABOUT THIS DUMB ASS
+        placeStructure("goblin", world, blockPos2.add(0, -1, 0).add((Vec3i)blockPos), rotation);
         vec3d.add((double)blockPos.getX(), (double)blockPos.getY(), (double)blockPos.getZ());
         vec3d = new Vec3d((double)blockPos2.getX() + vec3d.x + 0.5, (double)blockPos2.getY() + vec3d.y, (double)blockPos2.getZ() + vec3d.z + 0.5);
         e3 e32 = new e3(world, true, f, vec3d);
@@ -304,16 +316,24 @@ implements IWorldGenerator {
         world.spawnEntity((Entity)e32);
         world.getChunk(n, n2).markDirty();
     }
-
-    private static RuntimeException a(RuntimeException runtimeException) {
-        return runtimeException;
+    static void placeStructure(String name, World world, BlockPos pos, Rotation rotation) {
+        ResourceLocation resources = new ResourceLocation("sexmod", name);
+        MinecraftManager mc = world.getMinecraftServer();
+        TemplateManager templateManager= StructConfig.WS.getStructureTemplateManager();
+        Template template = templateManager.get(mc, resources);
+        if (template != null) {
+            IBlockState blockState = world.getBlockState(pos);
+            world.notifyBlockUpdate(pos, blockstate, blockstate, 2);
+            template.addBlocksToWorld(world, pos, StructConfig.placeSettings.setRotation(rotation));
+        }
     }
+    
     // new recreation
-    static class a$a {
+    static class StructRecord {
         int x;
         int y;
         String name;
-        public a$a(int x, int y, String name) {
+        public StructRecord(int x, int y, String name) {
             this.x = x;
             this.y = y;
             this.name = name;
@@ -321,35 +341,34 @@ implements IWorldGenerator {
         
     }
 }
-static class StructConfig {
+static class StructConfig extends WorldGenerator{
+    public static final WorldServer WS = FMLCommonHandler.instance().getMinecraftServerInstance().getWorld(0);
+    public static final PlacementSettings placeSettings = new PlacementSettings().setChunk(null).setIgnoreEntities(false).setMirror(Mirror.NONE).setRotation(Rotation.NONE);
     public final String name;
     public final HashSet<Biome> spawnBiomes;
-    public final vec3i dimensions;
+    public final Vec3i dimensions;
     public final boolean requiresLand;
     public final int maxTerrainVariation;
     
-    public StructureConfig(String name, HashSet<Biome> spawnBiomes, Vec3i dimensions, int n, boolean bool) {
+    public StructConfig(String name, HashSet<Biome> spawnBiomes, Vec3i dimensions, int n, boolean bool) {
         this.name = name;
         this.spawnBiomes = spawnBiomes;
         this.dimensions = dimensions;
-        this.maxTerrainVariation = n
+        this.maxTerrainVariation = n;
         this.requiresLand = bool;
     }
-}
-static class g3.b.b {
-    public final String f;
-    public final b4 b;
-    public final HashSet<Biome> e;
-    public final Vec3i c;
-    public final boolean d;
-    public final int a;
-
-    public g3.b.b(String string, HashSet<Biome> hashSet, Vec3i vec3i, int n, boolean bl) {
-        this.f = string;
-        this.e = hashSet;
-        this.c = vec3i;
-        this.d = bl;
-        this.a = n;
-        this.b = new b4(string);
+    
+    @Override
+    public boolean generate(World world, Random random, BlockPos blockPos) {
+        ResourceLocation resources = new ResourceLocation("sexmod", this.name);
+        MinecraftManager mc = world.getMinecraftServer();
+        TemplateManager templateManager = WS.getStructureTemplateManager();
+        Template template = templateManager.get(mc, resources);
+        if (template != null) {
+            IBlockState blockState = world.getBlockState(pos);
+            world.notifyBlockUpdate(pos, blockState, blockState, 2);
+            template.addBlocksToWorld(world, blockPos, placeSettings);
+        }
+        return true;
     }
 }
