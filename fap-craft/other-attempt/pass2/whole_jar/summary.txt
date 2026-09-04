@@ -1,0 +1,126 @@
+Summary for ./pass2.jar
+Decompiled with CFR 0.152
+
+
+org.apache.commons.lang3.CharSequenceUtils
+----------------------------
+
+lastIndexOf(java.lang.CharSequence java.lang.CharSequence int )
+  Unable to fully structure code
+
+
+org.apache.commons.lang3.text.ExtendedMessageFormat
+----------------------------
+
+readArgumentIndex(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.a_
+----------------------------
+
+func_184881_a(net.minecraft.server.MinecraftServer net.minecraft.command.ICommandSender java.lang.String[] )
+  Unable to fully structure code
+
+
+software.bernie.shadowed.fasterxml.jackson.core.io.UTF8Writer
+----------------------------
+
+write(char[] int int )
+  Unable to fully structure code
+write(java.lang.String int int )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.am
+----------------------------
+
+a(net.minecraftforge.client.event.RenderWorldLastEvent )
+  Unable to fully structure code
+b(net.minecraftforge.client.event.RenderWorldLastEvent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[WHILELOOP]
+a(net.minecraftforge.client.event.RenderHandEvent )
+  Unable to fully structure code
+a(net.minecraftforge.client.event.RenderPlayerEvent$Pre )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.ay
+----------------------------
+
+a(net.minecraft.util.math.Vec3d double )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.br
+----------------------------
+
+h(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 0[TRYBLOCK]
+f()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+
+
+com.trolmastercard.sexmod.cc
+----------------------------
+
+b(net.minecraft.entity.player.EntityPlayer long long )
+  Unable to fully structure code
+b(net.minecraft.entity.player.EntityPlayer )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.e3
+----------------------------
+
+d(java.util.UUID )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.f0
+----------------------------
+
+a()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 8[FORLOOP]
+
+
+com.trolmastercard.sexmod.et
+----------------------------
+
+a()
+  Unable to fully structure code
+getServerGuiElement(int net.minecraft.entity.player.EntityPlayer net.minecraft.world.World int int int )
+  Unable to fully structure code
+getClientGuiElement(int net.minecraft.entity.player.EntityPlayer net.minecraft.world.World int int int )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.em
+----------------------------
+
+a(java.util.UUID java.lang.Boolean )
+  Unable to fully structure code
+f(java.util.UUID )
+  Unable to fully structure code
+
+
+com.trolmastercard.sexmod.q
+----------------------------
+
+a(net.minecraftforge.fml.common.gameevent.PlayerEvent$PlayerLoggedOutEvent )
+  Unable to fully structure code
+
+
+software.bernie.shadowed.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer
+----------------------------
+
+updateObject(software.bernie.shadowed.fasterxml.jackson.core.JsonParser software.bernie.shadowed.fasterxml.jackson.databind.DeserializationContext software.bernie.shadowed.fasterxml.jackson.databind.node.ObjectNode )
+  Unable to fully structure code
+  Could not resolve type clashes
+
+
+software.bernie.shadowed.fasterxml.jackson.databind.type.TypeFactory
+----------------------------
+
+constructSpecializedType(software.bernie.shadowed.fasterxml.jackson.databind.JavaType java.lang.Class<?> )
+  Unable to fully structure code

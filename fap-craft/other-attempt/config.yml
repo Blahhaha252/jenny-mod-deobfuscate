@@ -1,0 +1,4 @@
+input: pass1.jar
+output: pass2.jar
+transformers:
+  - com.javadeobfuscator.deobfuscator.transformers.normalizer.SourceFileClassNormalizer

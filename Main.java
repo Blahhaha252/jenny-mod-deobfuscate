@@ -94,49 +94,7 @@ public class Main {
     public void registerReplacedRenderers(FMLInitializationEvent var1) {
         GeckoLib.initialize();
     }
-    public static void setConfigs() throws IOException {
-        File file1 = new File("config");
-        file1.mkdir();
-        
-        File json_config = new File("config/sexmod.json");
-        
-        if (!json_config.exists()) {
-            json_config.createNewFile();
-            FileWriter writer = new FileWriter(json_config);
-            writer.write("{\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}");
-            writer.close();
-        }
-        
-        StringBuilder strBuilder = new StringBuilder();
-        BufferedReader buff = new BufferedReader(new FileReader(json_config));
-        Throwable e = null;
-        try {
-            while (true) {
-                String str1;
-                String str2 = str1 = buff.readLine();
-                if (str2 == null) {
-                    break
-                }
-                strBuilder.append(str1);
-            }
-        } catch (Throwable e2) {
-            e3 = e2;
-            throw e3;
-        } finally {
-            if (buff != null) {
-                if (e == null) {
-                    buff.close();
-                } else {
-                    try {
-                        buff.close();
-                    } catch (Throwable e4) {
-                        e3.addSuppressed(e4);
-                    }
-                }
-            }
-        }
-        String str3 = strBuilder.toString();
-    }
+    
     public static void setConfigs() throws IOException {
         File var0 = new File("config");
         var0.mkdir();
@@ -164,7 +122,7 @@ public class Main {
                     var26.append(var5);
             }
         } catch (Throwable var24) {
-            var4 = var24;
+            e = var24;
             throw var24;
         } finally {
             label162: {

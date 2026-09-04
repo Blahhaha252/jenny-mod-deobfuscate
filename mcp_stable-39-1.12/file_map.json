@@ -1,15 +1,6 @@
 {
-    "bk$a": {
-        "file": "bk$a.java",
-        "references": [
-            "bk",
-            "em",
-            "fp",
-            "v"
-        ]
-    },
     "gx": {
-        "file": "gx.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gx.java",
         "references": [
             "b6",
             "c3",
@@ -18,7 +9,7 @@
         ]
     },
     "av": {
-        "file": "av.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/av.java",
         "references": [
             "as",
             "b6",
@@ -28,29 +19,30 @@
         ]
     },
     "o": {
-        "file": "o.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/o.java",
         "references": [
             "br",
             "cy"
         ]
     },
     "gu": {
-        "file": "gu.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gu.java",
         "references": [
             "e2",
             "r"
         ]
     },
-    "g_$a": {
-        "file": "g_$a.java",
+    "b_$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b_$a$a.java",
         "references": [
+            "b_",
+            "ei",
             "em",
-            "f_",
-            "g_"
+            "fy"
         ]
     },
     "de": {
-        "file": "de.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/de.java",
         "references": [
             "EyeAndKoboldColor",
             "d9",
@@ -60,32 +52,37 @@
             "ff"
         ]
     },
-    "bv$a": {
-        "file": "bv$a.java",
+    "ev$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ev$a$a.java",
         "references": [
-            "bv",
-            "c4"
+            "fp"
         ]
     },
-    "d0$a": {
-        "file": "d0$a.java",
-        "references": []
-    },
     "fj": {
-        "file": "fj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fj.java",
         "references": [
-            "ax",
-            "fj$a",
-            "fj$a",
-            "fj$a"
+            "ax"
         ]
     },
     "an": {
-        "file": "an.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/an.java",
         "references": []
     },
+    "eq$c$c": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eq$c$c.java",
+        "references": [
+            "fp"
+        ]
+    },
+    "fj$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fj$a$a.java",
+        "references": [
+            "ax",
+            "fj"
+        ]
+    },
     "cn": {
-        "file": "cn.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cn.java",
         "references": [
             "ad",
             "at",
@@ -93,22 +90,28 @@
         ]
     },
     "c7": {
-        "file": "c7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c7.java",
         "references": [
             "EyeAndKoboldColor",
             "hn",
             "i"
         ]
     },
-    "eu": {
-        "file": "eu.java",
+    "f8$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f8$a$a.java",
         "references": [
-            "eu$a",
-            "eu$a"
+            "fp"
+        ]
+    },
+    "eu": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eu.java",
+        "references": [
+            "ei",
+            "em"
         ]
     },
     "ch": {
-        "file": "ch.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ch.java",
         "references": [
             "a6",
             "em",
@@ -120,7 +123,7 @@
         ]
     },
     "al": {
-        "file": "al.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/al.java",
         "references": [
             "be",
             "c",
@@ -128,46 +131,36 @@
             "c"
         ]
     },
-    "w$a": {
-        "file": "w$a.java",
-        "references": []
-    },
-    "ed$a": {
-        "file": "ed$a.java",
+    "eg$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eg$a$a.java",
         "references": [
             "fp"
         ]
     },
-    "fw$a": {
-        "file": "fw$a.java",
-        "references": [
-            "ei",
-            "em",
-            "fw",
-            "fy"
-        ]
+    "cu$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cu$b$b.java",
+        "references": []
     },
-    "bd$a": {
-        "file": "bd$a.java",
+    "aq$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/aq$a$a.java",
         "references": [
-            "b5",
-            "bd",
-            "fy"
+            "aq"
         ]
     },
     "fg": {
-        "file": "fg.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fg.java",
         "references": []
     },
-    "fj$a": {
-        "file": "fj$a.java",
-        "references": [
-            "ax",
-            "fj"
-        ]
+    "dl$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dl$a$a.java",
+        "references": []
+    },
+    "dh$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dh$b$b.java",
+        "references": []
     },
     "c4": {
-        "file": "c4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c4.java",
         "references": [
             "b6",
             "bv",
@@ -179,74 +172,54 @@
             "c"
         ]
     },
-    "ho$a": {
-        "file": "ho$a.java",
-        "references": [
-            "em",
-            "fp"
-        ]
-    },
     "g0": {
-        "file": "g0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g0.java",
         "references": [
             "Main"
         ]
     },
     "gr": {
-        "file": "gr.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gr.java",
         "references": []
     },
     "gz": {
-        "file": "gz.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gz.java",
         "references": [
             "d3",
-            "ds",
-            "gz$a",
-            "gz$a",
-            "gz$a"
+            "ds"
         ]
     },
     "gc": {
-        "file": "gc.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gc.java",
         "references": []
     },
     "en": {
-        "file": "en.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/en.java",
         "references": [
-            "em",
-            "en$a",
-            "en$a",
-            "en$a",
-            "en$a"
-        ]
-    },
-    "eq$b": {
-        "file": "eq$b.java",
-        "references": [
-            "by",
-            "eh",
-            "g5"
+            "em"
         ]
     },
     "f3": {
-        "file": "f3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f3.java",
         "references": [
             "Main",
             "em",
-            "fz",
-            "f3$a",
-            "f3$a",
-            "f3$a",
-            "f3$a",
-            "f3$a"
+            "fz"
+        ]
+    },
+    "fn$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fn$b$b.java",
+        "references": [
+            "fp"
         ]
     },
     "dx": {
-        "file": "dx.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dx.java",
         "references": [
             "b7",
             "da",
             "dm",
+            "e2",
             "ei",
             "em",
             "f7",
@@ -254,90 +227,14 @@
             "gx"
         ]
     },
-    "ds": {
-        "file": "ds.java",
-        "references": [
-            "b6",
-            "d3"
-        ]
-    },
-    "db": {
-        "file": "db.java",
-        "references": [
-            "dm"
-        ]
-    },
-    "f_$b": {
-        "file": "f_$b.java",
+    "e9$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e9$a$a.java",
         "references": [
             "fp"
         ]
     },
-    "fn": {
-        "file": "fn.java",
-        "references": [
-            "ay",
-            "c",
-            "ck",
-            "co",
-            "dz",
-            "em",
-            "fp",
-            "ge",
-            "gz",
-            "r",
-            "fn$a",
-            "fn$a",
-            "c",
-            "fn$a",
-            "fn$a",
-            "r"
-        ]
-    },
-    "ew": {
-        "file": "ew.java",
-        "references": [
-            "ei",
-            "em",
-            "fy",
-            "gj"
-        ]
-    },
-    "cg": {
-        "file": "cg.java",
-        "references": [
-            "cv",
-            "em"
-        ]
-    },
-    "b7": {
-        "file": "b7.java",
-        "references": [
-            "f2"
-        ]
-    },
-    "dj$a": {
-        "file": "dj$a.java",
-        "references": [
-            "fp"
-        ]
-    },
-    "eg": {
-        "file": "eg.java",
-        "references": [
-            "at",
-            "ck",
-            "d3",
-            "ds",
-            "ei",
-            "em",
-            "fh",
-            "fp",
-            "go"
-        ]
-    },
-    "e3$c": {
-        "file": "e3$c.java",
+    "e3$c$c": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e3$c$c.java",
         "references": [
             "ClientProxy",
             "ai",
@@ -347,8 +244,148 @@
             "fp"
         ]
     },
+    "ds": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ds.java",
+        "references": [
+            "b6",
+            "d3"
+        ]
+    },
+    "db": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/db.java",
+        "references": [
+            "dm"
+        ]
+    },
+    "dq$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dq$a$a.java",
+        "references": [
+            "dq",
+            "eb",
+            "em"
+        ]
+    },
+    "fn": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fn.java",
+        "references": [
+            "ay",
+            "c",
+            "ck",
+            "co",
+            "d3",
+            "ds",
+            "dz",
+            "em",
+            "fh",
+            "fp",
+            "ge",
+            "gj",
+            "gz",
+            "r",
+            "c",
+            "r",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "r",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c"
+        ]
+    },
+    "ay$d$d": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ay$d$d.java",
+        "references": [
+            "ay"
+        ]
+    },
+    "ew": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ew.java",
+        "references": [
+            "ei",
+            "em",
+            "fy",
+            "gj"
+        ]
+    },
+    "cg": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cg.java",
+        "references": [
+            "cv",
+            "em"
+        ]
+    },
+    "b7": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b7.java",
+        "references": [
+            "f2"
+        ]
+    },
+    "eg": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eg.java",
+        "references": [
+            "at",
+            "c",
+            "ck",
+            "d3",
+            "ds",
+            "ei",
+            "em",
+            "fh",
+            "fp",
+            "ge",
+            "gg",
+            "go",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
+        ]
+    },
     "d6": {
-        "file": "d6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d6.java",
         "references": [
             "d_",
             "e4",
@@ -360,7 +397,7 @@
         ]
     },
     "fb": {
-        "file": "fb.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fb.java",
         "references": [
             "b1",
             "d4",
@@ -369,7 +406,7 @@
         ]
     },
     "b": {
-        "file": "b.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b.java",
         "references": [
             "a",
             "b6",
@@ -390,8 +427,16 @@
             "a"
         ]
     },
+    "b0$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b0$a$a.java",
+        "references": [
+            "b0",
+            "em",
+            "ex"
+        ]
+    },
     "bp": {
-        "file": "bp.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bp.java",
         "references": [
             "a4",
             "ay",
@@ -399,10 +444,12 @@
         ]
     },
     "f_": {
-        "file": "f_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f_.java",
         "references": [
             "Main",
             "a3",
+            "a8",
+            "a_",
             "ab",
             "aq",
             "b6",
@@ -419,11 +466,14 @@
             "cj",
             "ck",
             "cs",
+            "ct",
             "d",
             "d3",
             "df",
+            "ds",
             "ei",
             "em",
+            "ep",
             "ez",
             "f2",
             "f7",
@@ -434,6 +484,9 @@
             "fq",
             "fy",
             "g0",
+            "g_",
+            "ga",
+            "gb",
             "gc",
             "ge",
             "gy",
@@ -480,110 +533,92 @@
             "b6",
             "b6",
             "c",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "a_",
+            "a_",
+            "c",
+            "c",
+            "c",
+            "b6",
+            "b6",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
             "v",
             "be",
             "v",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
             "b6",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "f_$a",
-            "v",
-            "f_$a",
-            "f_$a",
             "v",
             "v",
-            "f_$a",
+            "v",
             "v",
             "be"
         ]
     },
+    "ef$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ef$b$b.java",
+        "references": [
+            "ef",
+            "gv"
+        ]
+    },
     "fp": {
-        "file": "fp.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fp.java",
         "references": [
             "be",
             "em"
         ]
     },
     "f1": {
-        "file": "f1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f1.java",
         "references": [
             "at"
         ]
     },
     "gt": {
-        "file": "gt.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gt.java",
         "references": [
             "em"
         ]
     },
     "e8": {
-        "file": "e8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e8.java",
         "references": []
-    },
-    "dh$a": {
-        "file": "dh$a.java",
-        "references": [
-            "fp"
-        ]
     },
     "x": {
-        "file": "x.java",
-        "references": []
-    },
-    "a6$a": {
-        "file": "a6$a.java",
-        "references": [
-            "a6",
-            "em"
-        ]
-    },
-    "dx$a": {
-        "file": "dx$a.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/x.java",
         "references": []
     },
     "cj": {
-        "file": "cj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cj.java",
         "references": [
             "b6",
             "ck",
@@ -592,14 +627,20 @@
             "r"
         ]
     },
+    "dv$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dv$a$a.java",
+        "references": [
+            "dv"
+        ]
+    },
     "d0": {
-        "file": "d0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d0.java",
         "references": [
             "dm"
         ]
     },
     "em": {
-        "file": "em.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/em.java",
         "references": [
             "ClientProxy",
             "Main",
@@ -634,12 +675,8 @@
             "n",
             "r",
             "s",
-            "em$a",
             "c",
             "c",
-            "em$a",
-            "em$a",
-            "em$a",
             "b",
             "r",
             "r",
@@ -651,21 +688,15 @@
             "c"
         ]
     },
-    "e9$a": {
-        "file": "e9$a.java",
-        "references": [
-            "fp"
-        ]
-    },
     "a4": {
-        "file": "a4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a4.java",
         "references": [
             "ay",
             "bp"
         ]
     },
     "bj": {
-        "file": "bj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bj.java",
         "references": [
             "em",
             "f8",
@@ -674,7 +705,7 @@
         ]
     },
     "ci": {
-        "file": "ci.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ci.java",
         "references": [
             "ai",
             "b6",
@@ -688,16 +719,14 @@
             "gj"
         ]
     },
-    "b0$a": {
-        "file": "b0$a.java",
+    "f_$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f_$b$b.java",
         "references": [
-            "b0",
-            "em",
-            "ex"
+            "fp"
         ]
     },
     "dh": {
-        "file": "dh.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dh.java",
         "references": [
             "af",
             "ak",
@@ -717,14 +746,18 @@
             "p"
         ]
     },
+    "d0$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d0$a$a.java",
+        "references": []
+    },
     "a5": {
-        "file": "a5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a5.java",
         "references": [
             "at"
         ]
     },
     "fa": {
-        "file": "fa.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fa.java",
         "references": [
             "b6",
             "bc",
@@ -736,36 +769,17 @@
             "p"
         ]
     },
-    "ay$c": {
-        "file": "ay$c.java",
-        "references": [
-            "ay"
-        ]
-    },
     "fc": {
-        "file": "fc.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fc.java",
         "references": [
             "ax",
             "bs",
             "ge",
-            "h6",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a",
-            "fc$a"
+            "h6"
         ]
     },
     "ga": {
-        "file": "ga.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ga.java",
         "references": [
             "ar",
             "b8",
@@ -774,109 +788,200 @@
         ]
     },
     "au": {
-        "file": "au.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/au.java",
         "references": [
             "ax",
             "ge",
-            "h6",
-            "au$a",
-            "au$a",
-            "au$a",
-            "au$a"
+            "h6"
         ]
     },
     "eq": {
-        "file": "eq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eq.java",
         "references": [
             "ai",
             "at",
             "b6",
             "by",
+            "c",
             "ck",
             "d3",
             "dg",
+            "ds",
             "dy",
             "e3",
             "e4",
             "eh",
             "ei",
             "ew",
+            "fh",
             "fp",
             "fv",
             "g5",
             "ge",
+            "gj",
             "gz",
             "m",
             "s",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a",
-            "eq$a"
-        ]
-    },
-    "hy$a": {
-        "file": "hy$a.java",
-        "references": [
-            "b3",
-            "ff",
-            "ge",
-            "j"
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "cw": {
-        "file": "cw.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cw.java",
         "references": []
     },
     "a_": {
-        "file": "a_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a_.java",
         "references": [
             "be",
             "em",
             "f_"
         ]
     },
-    "cx$a": {
-        "file": "cx$a.java",
-        "references": []
-    },
     "es": {
-        "file": "es.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/es.java",
         "references": [
             "a0",
             "at",
+            "b0",
+            "c",
+            "d3",
+            "ds",
             "ei",
             "em",
+            "fh",
             "fp",
             "ge",
-            "gz"
+            "gg",
+            "gz",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "by": {
-        "file": "by.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/by.java",
         "references": []
     },
+    "ax$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ax$b$b.java",
+        "references": [
+            "EyeAndKoboldColor",
+            "aa",
+            "ax",
+            "bs",
+            "cj",
+            "ff",
+            "ge",
+            "h6"
+        ]
+    },
+    "g3$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g3$b$b.java",
+        "references": [
+            "b4"
+        ]
+    },
     "ge": {
-        "file": "ge.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ge.java",
         "references": [
             "a1",
             "a6",
@@ -927,29 +1032,31 @@
         ]
     },
     "c1": {
-        "file": "c1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c1.java",
         "references": []
     },
     "hz": {
-        "file": "hz.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hz.java",
         "references": []
     },
-    "fe": {
-        "file": "fe.java",
-        "references": []
-    },
-    "c9$a": {
-        "file": "c9$a.java",
+    "ft$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ft$a$a.java",
         "references": [
-            "fp"
+            "e2",
+            "em",
+            "ft"
         ]
     },
+    "fe": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fe.java",
+        "references": []
+    },
     "at": {
-        "file": "at.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/at.java",
         "references": []
     },
     "a": {
-        "file": "a.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a.java",
         "references": [
             "ClientProxy",
             "b6",
@@ -962,26 +1069,35 @@
             "fy",
             "ge",
             "gq",
-            "gw",
-            "a$b",
-            "a$b",
-            "a$b",
-            "a$b",
-            "a$b"
+            "gw"
         ]
     },
     "a7": {
-        "file": "a7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a7.java",
         "references": [
             "at"
         ]
     },
+    "br$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/br$a$a.java",
+        "references": [
+            "br",
+            "em"
+        ]
+    },
     "bx": {
-        "file": "bx.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bx.java",
         "references": []
     },
+    "gf$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gf$a$a.java",
+        "references": [
+            "gf",
+            "v"
+        ]
+    },
     "d8": {
-        "file": "d8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d8.java",
         "references": [
             "d_",
             "em",
@@ -990,11 +1106,11 @@
         ]
     },
     "aj": {
-        "file": "aj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/aj.java",
         "references": []
     },
     "hn": {
-        "file": "hn.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hn.java",
         "references": [
             "EyeAndKoboldColor",
             "c7",
@@ -1003,19 +1119,11 @@
         ]
     },
     "c6": {
-        "file": "c6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c6.java",
         "references": []
     },
-    "gz$a": {
-        "file": "gz$a.java",
-        "references": [
-            "d3",
-            "ds",
-            "gz"
-        ]
-    },
     "hj": {
-        "file": "hj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hj.java",
         "references": [
             "a",
             "be",
@@ -1026,15 +1134,23 @@
             "a"
         ]
     },
+    "ac$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ac$a$a.java",
+        "references": [
+            "ac",
+            "em",
+            "fg"
+        ]
+    },
     "ca": {
-        "file": "ca.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ca.java",
         "references": [
             "eb",
             "fe"
         ]
     },
     "af": {
-        "file": "af.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/af.java",
         "references": [
             "b6",
             "ck",
@@ -1046,61 +1162,67 @@
         ]
     },
     "c": {
-        "file": "c.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c.java",
         "references": [
             "Main",
             "r"
         ]
     },
-    "ay$a": {
-        "file": "ay$a.java",
+    "f3$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f3$a$a.java",
         "references": [
-            "ay"
+            "Main",
+            "em",
+            "f3",
+            "fz"
         ]
     },
     "b2": {
-        "file": "b2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b2.java",
         "references": [
             "f_"
         ]
     },
+    "ce$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ce$a$a.java",
+        "references": [
+            "b6",
+            "f7"
+        ]
+    },
     "fh": {
-        "file": "fh.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fh.java",
         "references": [
             "b6",
             "be",
             "ds"
         ]
     },
-    "ax$a": {
-        "file": "ax$a.java",
-        "references": [
-            "EyeAndKoboldColor",
-            "Main",
-            "bs",
-            "em",
-            "ff",
-            "fm",
-            "fp",
-            "ge",
-            "h6"
-        ]
-    },
     "eo": {
-        "file": "eo.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eo.java",
         "references": [
             "em"
         ]
     },
+    "b1$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b1$a$a.java",
+        "references": [
+            "b1",
+            "e2",
+            "eb",
+            "em",
+            "fo"
+        ]
+    },
     "cl": {
-        "file": "cl.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cl.java",
         "references": [
             "cv",
             "em"
         ]
     },
     "cx": {
-        "file": "cx.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cx.java",
         "references": [
             "be",
             "cv",
@@ -1111,27 +1233,31 @@
         ]
     },
     "s": {
-        "file": "s.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/s.java",
         "references": [
             "ei",
             "em",
             "fp",
             "ge",
-            "gz",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a",
-            "s$a"
+            "gz"
+        ]
+    },
+    "gx$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gx$a$a.java",
+        "references": []
+    },
+    "h6$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h6$a$a.java",
+        "references": [
+            "ax",
+            "cj",
+            "ge",
+            "gm",
+            "h6"
         ]
     },
     "e_": {
-        "file": "e_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e_.java",
         "references": [
             "b6",
             "dm",
@@ -1141,46 +1267,39 @@
         ]
     },
     "dq": {
-        "file": "dq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dq.java",
         "references": [
             "eb",
-            "em",
-            "dq$a",
-            "dq$a",
-            "dq$a",
-            "dq$a"
+            "em"
         ]
     },
     "gd": {
-        "file": "gd.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gd.java",
         "references": [
             "ei",
             "em",
-            "fp",
-            "gd$a",
-            "gd$a",
-            "gd$a"
+            "fp"
         ]
     },
     "f0": {
-        "file": "f0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f0.java",
         "references": [
             "a9",
             "ap"
         ]
     },
     "ar": {
-        "file": "ar.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ar.java",
         "references": [
             "em"
         ]
     },
     "fl": {
-        "file": "fl.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fl.java",
         "references": []
     },
     "az": {
-        "file": "az.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/az.java",
         "references": [
             "b1",
             "ca",
@@ -1188,54 +1307,35 @@
             "ge"
         ]
     },
-    "dz": {
-        "file": "dz.java",
+    "cx$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cx$a$a.java",
         "references": []
     },
-    "g9$a": {
-        "file": "g9$a.java",
-        "references": [
-            "EyeAndKoboldColor",
-            "ax",
-            "em",
-            "ff",
-            "g9"
-        ]
+    "dz": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dz.java",
+        "references": []
     },
     "fq": {
-        "file": "fq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fq.java",
         "references": []
     },
     "EyeAndKoboldColor": {
-        "file": "EyeAndKoboldColor.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/EyeAndKoboldColor.java",
         "references": [
             "ff"
         ]
     },
-    "ff$b": {
-        "file": "ff$b.java",
-        "references": [
-            "fm",
-            "fp"
-        ]
-    },
     "b1": {
-        "file": "b1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b1.java",
         "references": [
             "e2",
             "eb",
             "em",
-            "fo",
-            "b1$a",
-            "b1$a",
-            "b1$a",
-            "b1$a",
-            "b1$a",
-            "b1$a"
+            "fo"
         ]
     },
     "ei": {
-        "file": "ei.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ei.java",
         "references": [
             "at",
             "d3",
@@ -1252,17 +1352,36 @@
             "w"
         ]
     },
-    "z$a": {
-        "file": "z$a.java",
+    "dm$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dm$a$a.java",
+        "references": []
+    },
+    "aw": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/aw.java",
         "references": [
-            "EyeAndKoboldColor",
-            "ax",
-            "c7",
-            "z"
+            "br",
+            "g6",
+            "ge"
         ]
     },
-    "g6$a": {
-        "file": "g6$a.java",
+    "dr": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dr.java",
+        "references": []
+    },
+    "ck": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ck.java",
+        "references": [
+            "gc"
+        ]
+    },
+    "a2": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a2.java",
+        "references": [
+            "aj"
+        ]
+    },
+    "g6$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g6$a$a.java",
         "references": [
             "br",
             "cu",
@@ -1270,64 +1389,26 @@
             "ge"
         ]
     },
-    "x$a": {
-        "file": "x$a.java",
-        "references": []
-    },
-    "aw": {
-        "file": "aw.java",
+    "b3$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b3$a$a.java",
         "references": [
-            "br",
-            "g6",
-            "ge"
-        ]
-    },
-    "dh$b": {
-        "file": "dh$b.java",
-        "references": []
-    },
-    "gx$a": {
-        "file": "gx$a.java",
-        "references": []
-    },
-    "dv$b": {
-        "file": "dv$b.java",
-        "references": []
-    },
-    "dr": {
-        "file": "dr.java",
-        "references": []
-    },
-    "ck": {
-        "file": "ck.java",
-        "references": [
-            "gc"
-        ]
-    },
-    "a2": {
-        "file": "a2.java",
-        "references": [
-            "aj"
-        ]
-    },
-    "cu$b": {
-        "file": "cu$b.java",
-        "references": []
-    },
-    "dc$a": {
-        "file": "dc$a.java",
-        "references": [
-            "dc"
+            "EyeAndKoboldColor",
+            "ax",
+            "b3",
+            "e4",
+            "ff",
+            "ge",
+            "j"
         ]
     },
     "dl": {
-        "file": "dl.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dl.java",
         "references": [
             "dm"
         ]
     },
     "CommonProxy": {
-        "file": "CommonProxy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/CommonProxy.java",
         "references": [
             "Main",
             "bi",
@@ -1341,107 +1422,132 @@
         ]
     },
     "f4": {
-        "file": "f4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f4.java",
         "references": [
             "em"
         ]
     },
-    "ba": {
-        "file": "ba.java",
-        "references": []
-    },
-    "c9": {
-        "file": "c9.java",
-        "references": [
-            "cv",
-            "em",
-            "ff"
-        ]
-    },
-    "ee$a": {
-        "file": "ee$a.java",
-        "references": [
-            "fp"
-        ]
-    },
-    "ef$b": {
-        "file": "ef$b.java",
-        "references": [
-            "ef",
-            "gv"
-        ]
-    },
-    "fr": {
-        "file": "fr.java",
-        "references": [
-            "g2"
-        ]
-    },
-    "cz$a": {
-        "file": "cz$a.java",
-        "references": [
-            "cz",
-            "em"
-        ]
-    },
-    "cz": {
-        "file": "cz.java",
-        "references": [
-            "em",
-            "cz$a",
-            "cz$a",
-            "cz$a"
-        ]
-    },
-    "g$a": {
-        "file": "g$a.java",
+    "g$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g$a$a.java",
         "references": [
             "e2",
             "fp"
         ]
     },
-    "bv": {
-        "file": "bv.java",
+    "ba": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ba.java",
+        "references": []
+    },
+    "c9": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c9.java",
         "references": [
-            "c4",
-            "bv$a",
-            "bv$a",
-            "bv$a"
+            "cv",
+            "dr",
+            "e4",
+            "em",
+            "ff",
+            "fp",
+            "gj"
         ]
     },
-    "f8$a": {
-        "file": "f8$a.java",
+    "fr": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fr.java",
         "references": [
+            "g2"
+        ]
+    },
+    "cz": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cz.java",
+        "references": [
+            "em"
+        ]
+    },
+    "g4$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g4$a$a.java",
+        "references": [
+            "g4",
+            "ge",
+            "w"
+        ]
+    },
+    "eq$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eq$a$a.java",
+        "references": [
+            "ai",
+            "ei",
+            "eq",
             "fp"
         ]
     },
+    "ei$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ei$a$a.java",
+        "references": []
+    },
+    "bv": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bv.java",
+        "references": [
+            "c4"
+        ]
+    },
+    "cu$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cu$a$a.java",
+        "references": [
+            "br",
+            "cu",
+            "ge",
+            "cu"
+        ]
+    },
     "b6": {
-        "file": "b6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b6.java",
         "references": [
             "f7",
             "gv"
         ]
     },
     "bm": {
-        "file": "bm.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bm.java",
+        "references": []
+    },
+    "bk$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bk$a$a.java",
+        "references": [
+            "bk",
+            "em",
+            "fp",
+            "v"
+        ]
+    },
+    "dt$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dt$a$a.java",
         "references": []
     },
     "p": {
-        "file": "p.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/p.java",
         "references": []
     },
+    "ed$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ed$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
+    "cz$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cz$a$a.java",
+        "references": [
+            "cz",
+            "em"
+        ]
+    },
     "cd": {
-        "file": "cd.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cd.java",
         "references": [
             "em",
-            "f_",
-            "cd$a",
-            "cd$a",
-            "cd$a"
+            "f_"
         ]
     },
     "bn": {
-        "file": "bn.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bn.java",
         "references": [
             "a",
             "ad",
@@ -1495,36 +1601,74 @@
             "w"
         ]
     },
+    "f_$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f_$a$a.java",
+        "references": [
+            "Main",
+            "ab",
+            "aq",
+            "b6",
+            "be",
+            "c4",
+            "cc",
+            "em",
+            "f_",
+            "fp",
+            "fq",
+            "ge",
+            "gz",
+            "hf",
+            "s",
+            "v"
+        ]
+    },
     "du": {
-        "file": "du.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/du.java",
         "references": [
             "d_",
             "ex"
         ]
     },
     "gj": {
-        "file": "gj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gj.java",
         "references": [
             "f5"
         ]
     },
-    "a8$a": {
-        "file": "a8$a.java",
+    "fw$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fw$a$a.java",
         "references": [
-            "a8"
+            "ei",
+            "em",
+            "fw",
+            "fy"
         ]
     },
     "e9": {
-        "file": "e9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e9.java",
         "references": [
             "a7",
             "at",
+            "c",
+            "d3",
+            "ds",
             "ei",
-            "fp"
+            "fh",
+            "fp",
+            "ge",
+            "gg",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "fk": {
-        "file": "fk.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fk.java",
         "references": [
             "ag",
             "al",
@@ -1595,23 +1739,25 @@
             "o"
         ]
     },
-    "fe$b": {
-        "file": "fe$b.java",
-        "references": []
+    "er$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/er$a$a.java",
+        "references": [
+            "fp"
+        ]
     },
     "bs": {
-        "file": "bs.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bs.java",
         "references": [
             "ax",
             "em",
             "ff",
-            "fp",
-            "bs$a"
+            "fp"
         ]
     },
     "eb": {
-        "file": "eb.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eb.java",
         "references": [
+            "ac",
             "b6",
             "be",
             "bh",
@@ -1619,16 +1765,70 @@
             "ck",
             "d3",
             "df",
+            "dq",
+            "ds",
             "e2",
+            "ej",
             "em",
             "fg",
             "fh",
             "fp",
             "ge",
+            "gg",
             "gh",
             "gi",
+            "gj",
+            "gk",
             "gp",
             "m",
+            "s",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
             "c",
             "c",
             "c",
@@ -1637,111 +1837,77 @@
             "c"
         ]
     },
-    "ay$d": {
-        "file": "ay$d.java",
-        "references": [
-            "ay"
-        ]
-    },
     "d4": {
-        "file": "d4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d4.java",
         "references": [
             "em",
             "fe"
         ]
     },
-    "au$a": {
-        "file": "au$a.java",
-        "references": [
-            "au",
-            "ax",
-            "ge",
-            "h6"
-        ]
-    },
     "co": {
-        "file": "co.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/co.java",
         "references": [
             "bd",
             "cw",
             "ge"
         ]
     },
+    "x$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/x$a$a.java",
+        "references": []
+    },
     "bb": {
-        "file": "bb.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bb.java",
         "references": []
     },
     "b9": {
-        "file": "b9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b9.java",
         "references": [
             "ax"
         ]
     },
     "fo": {
-        "file": "fo.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fo.java",
         "references": [
             "em"
         ]
     },
-    "f$a": {
-        "file": "f$a.java",
+    "d_$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d_$a$a.java",
         "references": []
     },
     "bt": {
-        "file": "bt.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bt.java",
         "references": [
             "f8",
             "f_"
         ]
     },
-    "eg$a": {
-        "file": "eg$a.java",
-        "references": [
-            "fp"
-        ]
-    },
     "c8": {
-        "file": "c8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c8.java",
         "references": []
     },
-    "ev$a": {
-        "file": "ev$a.java",
-        "references": [
-            "fp"
-        ]
-    },
     "cu": {
-        "file": "cu.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cu.java",
         "references": [
             "ClientProxy",
             "Main",
             "br",
-            "ge",
-            "cu$b",
-            "cu$a",
-            "cu$a",
-            "cu$a",
-            "cu$a",
-            "cu$b",
-            "cu$b",
-            "cu$a",
-            "cu$a",
-            "cu$a",
-            "cu$b",
-            "cu$a",
-            "cu$a"
+            "ge"
         ]
     },
     "dc": {
-        "file": "dc.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dc.java",
         "references": [
-            "dc$a",
-            "dc$a",
-            "dc$a"
+            "bh",
+            "eb",
+            "el",
+            "em",
+            "ex"
         ]
     },
     "gb": {
-        "file": "gb.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gb.java",
         "references": [
             "b6",
             "cd",
@@ -1749,32 +1915,32 @@
             "gr"
         ]
     },
-    "dl$a": {
-        "file": "dl$a.java",
-        "references": []
-    },
-    "ay$b": {
-        "file": "ay$b.java",
+    "bo$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bo$a$a.java",
         "references": [
-            "ay",
-            "r"
+            "Main",
+            "bo",
+            "em"
         ]
     },
     "g7": {
-        "file": "g7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g7.java",
         "references": [
             "g9",
             "ge"
         ]
     },
-    "es$a": {
-        "file": "es$a.java",
+    "a$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a$b$b.java",
         "references": [
-            "fp"
+            "ClientProxy",
+            "a",
+            "br",
+            "ei"
         ]
     },
     "dy": {
-        "file": "dy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dy.java",
         "references": [
             "b6",
             "be",
@@ -1793,7 +1959,7 @@
         ]
     },
     "ax": {
-        "file": "ax.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ax.java",
         "references": [
             "EyeAndKoboldColor",
             "Main",
@@ -1806,74 +1972,70 @@
             "fp",
             "ge",
             "h6",
-            "r",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$b",
-            "ax$a",
-            "ax$a",
-            "ax$a",
-            "ax$a",
-            "ax$a",
-            "ax$a",
-            "ax$a"
+            "r"
         ]
     },
-    "f3$a": {
-        "file": "f3$a.java",
+    "ay$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ay$b$b.java",
         "references": [
-            "Main",
-            "em",
-            "f3",
-            "fz"
-        ]
-    },
-    "ab$a": {
-        "file": "ab$a.java",
-        "references": [
-            "ab",
-            "cc",
-            "em",
-            "f_"
+            "ay",
+            "r"
         ]
     },
     "e5": {
-        "file": "e5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e5.java",
         "references": [
             "at",
+            "c",
+            "d3",
+            "dc",
+            "ds",
             "ei",
             "f1",
+            "fh",
+            "fp",
+            "ge",
+            "gj",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
+        ]
+    },
+    "dp$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dp$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
+    "dy$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dy$a$a.java",
+        "references": [
             "fp"
         ]
     },
     "be": {
-        "file": "be.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/be.java",
         "references": [
             "bm",
             "g0",
@@ -1881,24 +2043,20 @@
         ]
     },
     "ez": {
-        "file": "ez.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ez.java",
         "references": []
     },
     "g9": {
-        "file": "g9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g9.java",
         "references": [
             "EyeAndKoboldColor",
             "ax",
             "em",
-            "ff",
-            "g9$a",
-            "g9$a",
-            "g9$a",
-            "g9$a"
+            "ff"
         ]
     },
     "ad": {
-        "file": "ad.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ad.java",
         "references": [
             "ax",
             "bs",
@@ -1911,8 +2069,14 @@
             "v"
         ]
     },
+    "fz$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fz$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
     "ah": {
-        "file": "ah.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ah.java",
         "references": [
             "a3",
             "ei",
@@ -1920,7 +2084,7 @@
         ]
     },
     "fu": {
-        "file": "fu.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fu.java",
         "references": [
             "cj",
             "d3",
@@ -1932,14 +2096,18 @@
             "fp"
         ]
     },
-    "n$a": {
-        "file": "n$a.java",
+    "fc$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fc$a$a.java",
         "references": [
-            "n"
+            "ax",
+            "bs",
+            "fc",
+            "ge",
+            "h6"
         ]
     },
     "cv": {
-        "file": "cv.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cv.java",
         "references": [
             "b6",
             "cm",
@@ -1952,81 +2120,68 @@
         ]
     },
     "gm": {
-        "file": "gm.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gm.java",
         "references": [
             "b6",
             "hy",
             "r"
         ]
     },
-    "dg$b": {
-        "file": "dg$b.java",
-        "references": []
-    },
     "bh": {
-        "file": "bh.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bh.java",
         "references": []
     },
     "cp": {
-        "file": "cp.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cp.java",
         "references": [
             "EyeAndKoboldColor",
             "i"
         ]
     },
     "bu": {
-        "file": "bu.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bu.java",
         "references": [
             "e2",
             "ei"
         ]
     },
-    "g4$a": {
-        "file": "g4$a.java",
+    "ct$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ct$a$a.java",
         "references": [
-            "g4",
-            "ge",
-            "w"
-        ]
-    },
-    "a1$a": {
-        "file": "a1$a.java",
-        "references": [
-            "a1",
+            "ct",
             "em",
-            "ge"
+            "f_"
         ]
     },
     "r": {
-        "file": "r.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/r.java",
         "references": [
             "ClientProxy",
             "CommonProxy"
         ]
     },
     "h_": {
-        "file": "h_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h_.java",
         "references": [
             "f_"
         ]
     },
-    "ef$a": {
-        "file": "ef$a.java",
-        "references": []
-    },
     "bz": {
-        "file": "bz.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bz.java",
         "references": []
     },
-    "bw$a": {
-        "file": "bw$a.java",
+    "ap$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ap$a$a.java",
         "references": [
-            "bw",
-            "r"
+            "ap",
+            "d3",
+            "ei",
+            "em",
+            "ev"
         ]
     },
     "dd": {
-        "file": "dd.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dd.java",
         "references": [
             "a2",
             "ad",
@@ -2035,13 +2190,20 @@
         ]
     },
     "u": {
-        "file": "u.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/u.java",
         "references": [
             "f_"
         ]
     },
+    "bv$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bv$a$a.java",
+        "references": [
+            "bv",
+            "c4"
+        ]
+    },
     "h8": {
-        "file": "h8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h8.java",
         "references": [
             "a1",
             "ao",
@@ -2069,52 +2231,94 @@
         ]
     },
     "ee": {
-        "file": "ee.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ee.java",
         "references": [
+            "a8",
+            "ac",
             "at",
+            "c",
             "cf",
+            "d3",
+            "ds",
             "ei",
             "em",
+            "fh",
             "fp",
             "g4",
             "ge",
-            "gz"
+            "gg",
+            "gz",
+            "n",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "br": {
-        "file": "br.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/br.java",
         "references": [
             "ClientProxy",
             "Main",
-            "c8",
             "em",
             "fy",
             "g6",
             "ge",
-            "gw",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$b",
-            "br$a",
-            "br$a",
-            "br$a",
-            "br$a",
-            "br$a"
+            "gw"
         ]
     },
     "b5": {
-        "file": "b5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b5.java",
         "references": [
             "b_",
             "em",
@@ -2122,8 +2326,14 @@
             "ge"
         ]
     },
+    "ff$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ff$a$a.java",
+        "references": [
+            "EyeAndKoboldColor"
+        ]
+    },
     "d_": {
-        "file": "d_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d_.java",
         "references": [
             "ClientProxy",
             "a",
@@ -2145,46 +2355,32 @@
             "y",
             "a",
             "b",
+            "p",
             "p"
         ]
     },
+    "dh$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dh$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
     "n": {
-        "file": "n.java",
-        "references": [
-            "n$a"
-        ]
-    },
-    "dg$a": {
-        "file": "dg$a.java",
-        "references": []
-    },
-    "e6$a": {
-        "file": "e6$a.java",
-        "references": [
-            "ax",
-            "bs",
-            "e6",
-            "ge",
-            "h6"
-        ]
-    },
-    "f8$b": {
-        "file": "f8$b.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/n.java",
         "references": [
             "em",
-            "f8"
+            "fn",
+            "fp"
         ]
     },
     "bw": {
-        "file": "bw.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bw.java",
         "references": [
-            "r",
-            "bw$a",
-            "bw$a"
+            "r"
         ]
     },
     "c0": {
-        "file": "c0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c0.java",
         "references": [
             "cv",
             "em",
@@ -2193,145 +2389,120 @@
         ]
     },
     "ay": {
-        "file": "ay.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ay.java",
         "references": [
             "fn",
-            "r",
-            "ay$b",
-            "ay$b",
-            "ay$b",
-            "ay$b",
-            "ay$b",
-            "ay$d",
-            "ay$d",
-            "ay$d",
-            "ay$a",
-            "ay$a",
-            "ay$a",
-            "ay$a",
-            "ay$a",
-            "ay$a"
+            "r"
         ]
     },
     "b4": {
-        "file": "b4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b4.java",
         "references": [
             "d7"
         ]
     },
     "e7": {
-        "file": "e7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e7.java",
         "references": [
             "EyeAndKoboldColor",
+            "a8",
             "at",
             "b6",
+            "c",
+            "ck",
+            "d3",
             "de",
             "dj",
             "dr",
+            "ds",
             "e4",
             "ew",
+            "ff",
+            "fh",
             "fp",
             "fv",
-            "m"
+            "ge",
+            "gj",
+            "m",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
-    "e5$a": {
-        "file": "e5$a.java",
+    "cd$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cd$a$a.java",
         "references": [
-            "fp"
-        ]
-    },
-    "a$b": {
-        "file": "a$b.java",
-        "references": [
-            "ClientProxy",
-            "a",
-            "br",
-            "ei"
+            "cd",
+            "em",
+            "f_"
         ]
     },
     "a6": {
-        "file": "a6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a6.java",
         "references": [
-            "em",
-            "a6$a",
-            "a6$a"
-        ]
-    },
-    "eq$a": {
-        "file": "eq$a.java",
-        "references": [
-            "ai",
-            "ei",
-            "eq",
-            "fp"
-        ]
-    },
-    "fz$a": {
-        "file": "fz$a.java",
-        "references": [
-            "fp"
+            "em"
         ]
     },
     "hy": {
-        "file": "hy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hy.java",
         "references": [
             "b3",
             "fa",
             "ff",
             "ge",
-            "j",
-            "hy$a",
-            "hy$a",
-            "hy$a",
-            "hy$a",
-            "hy$a",
-            "hy$a",
-            "hy$a",
-            "hy$a"
+            "j"
         ]
     },
     "ac": {
-        "file": "ac.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ac.java",
         "references": [
             "em",
-            "fg",
-            "ac$a",
-            "ac$a",
-            "ac$a"
+            "fg"
         ]
     },
-    "fe$a": {
-        "file": "fe$a.java",
-        "references": [
-            "fe"
-        ]
+    "fn$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fn$a$a.java",
+        "references": []
     },
     "d1": {
-        "file": "d1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d1.java",
         "references": [
             "d_"
         ]
     },
-    "h$a": {
-        "file": "h$a.java",
+    "gd$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gd$a$a.java",
         "references": [
-            "f"
-        ]
-    },
-    "en$a": {
-        "file": "en$a.java",
-        "references": [
+            "ei",
             "em",
-            "en"
+            "gd"
         ]
     },
     "gv": {
-        "file": "gv.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gv.java",
         "references": []
     },
     "fx": {
-        "file": "fx.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fx.java",
         "references": [
             "be",
             "ei",
@@ -2342,19 +2513,14 @@
         ]
     },
     "a1": {
-        "file": "a1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a1.java",
         "references": [
             "em",
-            "ge",
-            "a1$a",
-            "a1$a",
-            "a1$a",
-            "a1$a",
-            "a1$a"
+            "ge"
         ]
     },
     "c2": {
-        "file": "c2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c2.java",
         "references": [
             "cv",
             "e5",
@@ -2362,20 +2528,25 @@
             "gj"
         ]
     },
-    "dv$a": {
-        "file": "dv$a.java",
+    "bd$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bd$a$a.java",
         "references": [
-            "dv"
+            "b5",
+            "bd",
+            "fy"
         ]
     },
-    "di$a": {
-        "file": "di$a.java",
+    "ab$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ab$a$a.java",
         "references": [
-            "fp"
+            "ab",
+            "cc",
+            "em",
+            "f_"
         ]
     },
     "g3": {
-        "file": "g3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g3.java",
         "references": [
             "ax",
             "b4",
@@ -2385,125 +2556,125 @@
         ]
     },
     "a0": {
-        "file": "a0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a0.java",
         "references": [
             "at"
         ]
     },
     "a8": {
-        "file": "a8.java",
-        "references": [
-            "a8$a",
-            "a8$a"
-        ]
-    },
-    "aq$a": {
-        "file": "aq$a.java",
-        "references": [
-            "aq"
-        ]
-    },
-    "d_$a": {
-        "file": "d_$a.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a8.java",
         "references": []
     },
-    "br$a": {
-        "file": "br$a.java",
-        "references": [
-            "br",
-            "em"
-        ]
-    },
     "ec": {
-        "file": "ec.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ec.java",
         "references": [
             "at",
+            "b0",
+            "c",
             "cq",
+            "d3",
+            "ds",
             "ei",
+            "fh",
             "fp",
             "ge",
-            "gz"
+            "gz",
+            "r",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "r",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c"
         ]
     },
-    "gg$a": {
-        "file": "gg$a.java",
+    "gq$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gq$a$a.java",
         "references": [
+            "a",
+            "b6",
+            "br",
+            "cy",
             "em",
-            "fp",
-            "gg",
-            "ho",
-            "r"
+            "gq",
+            "gw",
+            "a",
+            "a",
+            "a",
+            "a",
+            "a",
+            "a",
+            "a"
         ]
     },
     "bf": {
-        "file": "bf.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bf.java",
         "references": [
             "at"
         ]
     },
     "g1": {
-        "file": "g1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g1.java",
         "references": [
             "f_"
         ]
     },
     "fs": {
-        "file": "fs.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fs.java",
         "references": [
             "em"
         ]
     },
+    "g3$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g3$a$a.java",
+        "references": [
+            "e1"
+        ]
+    },
     "g2": {
-        "file": "g2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g2.java",
         "references": []
     },
-    "gp$a": {
-        "file": "gp$a.java",
+    "e0$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e0$a$a.java",
         "references": [
-            "eb"
-        ]
-    },
-    "g4": {
-        "file": "g4.java",
-        "references": [
-            "ge",
-            "w",
-            "g4$a",
-            "g4$a",
-            "g4$a",
-            "g4$a",
-            "g4$a"
-        ]
-    },
-    "f_$a": {
-        "file": "f_$a.java",
-        "references": [
-            "Main",
-            "ab",
-            "aq",
-            "b6",
-            "be",
-            "c4",
-            "cc",
             "em",
-            "f_",
-            "fp",
-            "fq",
-            "ge",
-            "gz",
-            "hf",
-            "s",
-            "v"
-        ]
-    },
-    "cb$a": {
-        "file": "cb$a.java",
-        "references": [
             "fp"
         ]
     },
+    "au$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/au$a$a.java",
+        "references": [
+            "au",
+            "ax",
+            "ge",
+            "h6"
+        ]
+    },
+    "g4": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g4.java",
+        "references": [
+            "ge",
+            "w"
+        ]
+    },
+    "dx$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dx$a$a.java",
+        "references": []
+    },
     "dj": {
-        "file": "dj.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dj.java",
         "references": [
             "EyeAndKoboldColor",
             "d6",
@@ -2515,17 +2686,17 @@
         ]
     },
     "cy": {
-        "file": "cy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cy.java",
         "references": [
             "gw"
         ]
     },
     "ht": {
-        "file": "ht.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ht.java",
         "references": []
     },
     "fi": {
-        "file": "fi.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fi.java",
         "references": [
             "b6",
             "eb",
@@ -2533,75 +2704,116 @@
         ]
     },
     "w": {
-        "file": "w.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/w.java",
         "references": [
             "eu",
             "ge"
         ]
     },
     "dt": {
-        "file": "dt.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dt.java",
         "references": [
             "d_"
         ]
     },
     "cf": {
-        "file": "cf.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cf.java",
         "references": [
             "at"
         ]
     },
     "el": {
-        "file": "el.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/el.java",
         "references": [
             "bh",
             "c",
             "ck",
             "co",
+            "d3",
             "ds",
             "dz",
             "e2",
             "fh",
             "fp",
             "ge",
+            "gg",
+            "gj",
             "gz",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
             "c",
             "c",
             "c"
         ]
     },
-    "b3$a": {
-        "file": "b3$a.java",
+    "cb$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cb$a$a.java",
         "references": [
-            "EyeAndKoboldColor",
-            "ax",
-            "b3",
-            "e4",
-            "ff",
-            "ge",
-            "j"
-        ]
-    },
-    "ap$a": {
-        "file": "ap$a.java",
-        "references": [
-            "ap",
-            "d3",
-            "ei",
-            "em",
-            "ev"
+            "fp"
         ]
     },
     "e3": {
-        "file": "e3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e3.java",
         "references": [
             "ClientProxy",
             "Main",
             "ai",
             "by",
+            "c",
             "cj",
             "d3",
             "df",
+            "ds",
             "dy",
             "e1",
             "e4",
@@ -2613,33 +2825,30 @@
             "fp",
             "g5",
             "ge",
+            "gj",
             "gz",
             "hz",
             "s",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c",
-            "e3$c"
-        ]
-    },
-    "dp$a": {
-        "file": "dp$a.java",
-        "references": [
-            "fp"
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "f9": {
-        "file": "f9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f9.java",
         "references": [
             "ap",
             "b9",
@@ -2653,7 +2862,7 @@
         ]
     },
     "j": {
-        "file": "j.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/j.java",
         "references": [
             "au",
             "be",
@@ -2667,34 +2876,40 @@
         ]
     },
     "ff": {
-        "file": "ff.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ff.java",
         "references": [
             "EyeAndKoboldColor",
             "Main",
             "a1",
+            "a8",
             "ax",
             "b3",
             "b6",
             "ba",
             "bh",
             "bs",
+            "c",
             "c7",
             "cj",
+            "ck",
             "co",
             "d3",
             "df",
             "dj",
             "dr",
+            "ds",
             "dw",
             "e1",
             "e4",
             "ei",
             "em",
             "en",
+            "fh",
             "fm",
             "fp",
             "g7",
             "ge",
+            "gj",
             "h6",
             "hy",
             "hz",
@@ -2732,19 +2947,11 @@
             "ax",
             "ax",
             "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
             "r",
-            "r",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
-            "ax",
             "r",
             "ax",
             "ax",
@@ -2757,63 +2964,104 @@
             "ax",
             "ax",
             "ax",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
             "ax",
-            "ff$c",
-            "ff$c",
+            "r",
             "ax",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c",
-            "ff$c"
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "ax",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "ax",
+            "ax"
+        ]
+    },
+    "gp$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gp$a$a.java",
+        "references": [
+            "eb"
+        ]
+    },
+    "e3$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e3$b$b.java",
+        "references": [
+            "by",
+            "eh",
+            "g5"
         ]
     },
     "h": {
-        "file": "h.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h.java",
         "references": [
             "em",
-            "f",
-            "h$a"
+            "f"
         ]
     },
     "hf": {
-        "file": "hf.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hf.java",
         "references": [
             "b6",
             "be",
             "bl"
         ]
     },
-    "er$a": {
-        "file": "er$a.java",
+    "ec$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ec$a$a.java",
         "references": [
             "fp"
         ]
     },
     "f6": {
-        "file": "f6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f6.java",
         "references": [
             "c7"
         ]
     },
-    "eq$c": {
-        "file": "eq$c.java",
+    "ef$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ef$a$a.java",
+        "references": []
+    },
+    "bg$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bg$a$a.java",
         "references": [
+            "bg",
+            "ev",
             "fp"
         ]
     },
     "cr": {
-        "file": "cr.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cr.java",
         "references": [
             "cv",
             "ec",
@@ -2824,31 +3072,73 @@
         ]
     },
     "ed": {
-        "file": "ed.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ed.java",
         "references": [
             "at",
             "bf",
+            "c",
+            "ck",
             "d3",
+            "ds",
             "ei",
             "fh",
-            "fp"
-        ]
-    },
-    "eb$a": {
-        "file": "eb$a.java",
-        "references": [
-            "eb"
+            "fp",
+            "ge",
+            "gg",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "dn": {
-        "file": "dn.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dn.java",
         "references": [
             "d_",
             "fz"
         ]
     },
     "ap": {
-        "file": "ap.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ap.java",
         "references": [
             "b6",
             "cj",
@@ -2858,86 +3148,71 @@
             "em",
             "ev",
             "f0",
+            "fp"
+        ]
+    },
+    "n$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/n$a$a.java",
+        "references": [
+            "em",
+            "fn",
             "fp",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a",
-            "ap$a"
+            "n"
         ]
     },
     "b3": {
-        "file": "b3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b3.java",
         "references": [
             "EyeAndKoboldColor",
             "ax",
             "e4",
             "ff",
             "ge",
-            "j",
-            "b3$a",
-            "b3$a",
-            "b3$a",
-            "b3$a",
-            "b3$a",
-            "b3$a"
+            "j"
         ]
     },
     "ae": {
-        "file": "ae.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ae.java",
         "references": [
             "Main",
             "em"
         ]
     },
-    "dt$a": {
-        "file": "dt$a.java",
-        "references": []
-    },
-    "fn$b": {
-        "file": "fn$b.java",
+    "g9$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g9$a$a.java",
         "references": [
-            "fp"
+            "EyeAndKoboldColor",
+            "ax",
+            "em",
+            "ff",
+            "g9"
         ]
     },
     "gy": {
-        "file": "gy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gy.java",
         "references": [
             "fy"
         ]
     },
     "gi": {
-        "file": "gi.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gi.java",
         "references": [
             "eb",
-            "em",
-            "gi$a",
-            "gi$a",
-            "gi$a",
-            "gi$a",
-            "gi$a",
-            "gi$a",
-            "gi$a"
+            "em"
         ]
     },
     "ct": {
-        "file": "ct.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ct.java",
         "references": [
             "em",
-            "f_",
-            "ct$a",
-            "ct$a",
-            "ct$a",
-            "ct$a"
+            "f_"
         ]
     },
     "ex": {
-        "file": "ex.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ex.java",
         "references": [
+            "ac",
+            "b0",
             "b6",
             "bh",
             "c",
@@ -2945,12 +3220,103 @@
             "co",
             "d3",
             "df",
+            "ds",
             "e2",
             "em",
             "fg",
+            "fh",
             "fp",
             "ge",
+            "gg",
+            "gj",
             "gz",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "r",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
             "c",
             "c",
             "c",
@@ -2958,16 +3324,33 @@
             "c"
         ]
     },
-    "gh$a": {
-        "file": "gh$a.java",
+    "e7$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e7$b$b.java",
         "references": [
+            "EyeAndKoboldColor"
+        ]
+    },
+    "ej$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ej$a$a.java",
+        "references": [
+            "eb",
+            "ej",
             "em",
-            "ge",
-            "gh"
+            "gp"
+        ]
+    },
+    "f$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f$a$a.java",
+        "references": []
+    },
+    "di$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/di$a$a.java",
+        "references": [
+            "fp"
         ]
     },
     "ea": {
-        "file": "ea.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ea.java",
         "references": [
             "ClientProxy",
             "be",
@@ -2976,191 +3359,207 @@
             "fp"
         ]
     },
-    "bg$a": {
-        "file": "bg$a.java",
+    "ce$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ce$b$b.java",
+        "references": []
+    },
+    "dc$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dc$a$a.java",
         "references": [
-            "bg",
-            "ev",
-            "fp"
+            "bh",
+            "dc",
+            "eb",
+            "el",
+            "em",
+            "ex"
+        ]
+    },
+    "eu$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eu$a$a.java",
+        "references": [
+            "ei",
+            "em",
+            "eu"
         ]
     },
     "g6": {
-        "file": "g6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g6.java",
         "references": [
             "ClientProxy",
             "Main",
             "br",
             "cu",
+            "ge"
+        ]
+    },
+    "e6$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e6$a$a.java",
+        "references": [
+            "ax",
+            "bs",
+            "e6",
             "ge",
-            "g6$a",
-            "g6$a",
-            "g6$a",
-            "g6$a",
-            "g6$a"
+            "h6"
         ]
     },
     "d7": {
-        "file": "d7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d7.java",
         "references": []
     },
+    "e5$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e5$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
+    "eq$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eq$b$b.java",
+        "references": [
+            "by",
+            "eh",
+            "g5"
+        ]
+    },
     "gg": {
-        "file": "gg.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gg.java",
         "references": [
             "em",
             "fp",
             "ho",
-            "r",
-            "gg$a",
-            "gg$a",
-            "gg$a",
-            "gg$a",
-            "gg$a"
+            "r"
+        ]
+    },
+    "g$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g$b$b.java",
+        "references": [
+            "f"
         ]
     },
     "as": {
-        "file": "as.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/as.java",
         "references": [
             "cc"
         ]
     },
     "gf": {
-        "file": "gf.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gf.java",
         "references": [
-            "v",
-            "gf$a",
-            "gf$a"
+            "v"
+        ]
+    },
+    "f8$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f8$b$b.java",
+        "references": [
+            "em",
+            "f8"
         ]
     },
     "f5": {
-        "file": "f5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f5.java",
         "references": [
             "x"
         ]
     },
-    "gq$a": {
-        "file": "gq$a.java",
-        "references": [
-            "a",
-            "b6",
-            "br",
-            "cy",
-            "em",
-            "gq",
-            "gw",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a",
-            "a"
-        ]
-    },
     "e6": {
-        "file": "e6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e6.java",
         "references": [
             "ax",
             "bs",
             "ge",
-            "h6",
-            "e6$a",
-            "e6$a",
-            "e6$a",
-            "e6$a",
-            "e6$a"
+            "h6"
         ]
     },
-    "e3$a": {
-        "file": "e3$a.java",
+    "dg$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dg$b$b.java",
+        "references": []
+    },
+    "er": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/er.java",
         "references": [
-            "fp"
+            "a5",
+            "a8",
+            "at",
+            "b6",
+            "b7",
+            "c",
+            "ck",
+            "ct",
+            "d3",
+            "ds",
+            "ei",
+            "ep",
+            "f2",
+            "fh",
+            "fp",
+            "ga",
+            "ge",
+            "hf",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
-    "gk$a": {
-        "file": "gk$a.java",
+    "ff$c$c": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ff$c$c.java",
         "references": [
-            "eb",
+            "ax",
+            "b3",
             "em",
-            "gk"
-        ]
-    },
-    "cu$a": {
-        "file": "cu$a.java",
-        "references": [
-            "br",
-            "cu",
+            "ff",
             "ge"
         ]
     },
-    "er": {
-        "file": "er.java",
+    "gg$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gg$a$a.java",
         "references": [
-            "a5",
-            "at",
-            "b7",
-            "ck",
-            "ds",
-            "ei",
             "em",
-            "f2",
-            "fp"
-        ]
-    },
-    "br$b": {
-        "file": "br$b.java",
-        "references": [
-            "c8",
-            "fy",
-            "gw"
+            "fp",
+            "gg",
+            "ho",
+            "r"
         ]
     },
     "g8": {
-        "file": "g8.java",
-        "references": []
-    },
-    "dm$a": {
-        "file": "dm$a.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g8.java",
         "references": []
     },
     "h6": {
-        "file": "h6.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h6.java",
         "references": [
             "ax",
             "cj",
             "ge",
-            "gm",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a",
-            "h6$a"
+            "gm"
+        ]
+    },
+    "a1$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a1$a$a.java",
+        "references": [
+            "a1",
+            "em",
+            "ge"
         ]
     },
     "f": {
-        "file": "f.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f.java",
         "references": [
-            "df",
             "em",
             "fp",
-            "r",
-            "f$a",
-            "f$a",
-            "f$a"
+            "r"
         ]
     },
     "e0": {
-        "file": "e0.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e0.java",
         "references": [
+            "ac",
             "b6",
             "bh",
             "c",
@@ -3174,6 +3573,41 @@
             "fg",
             "fh",
             "fp",
+            "ge",
+            "gg",
+            "gj",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
             "c",
             "c",
             "c",
@@ -3182,7 +3616,7 @@
         ]
     },
     "cb": {
-        "file": "cb.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cb.java",
         "references": [
             "ClientProxy",
             "a_",
@@ -3195,6 +3629,7 @@
             "cv",
             "ei",
             "em",
+            "f2",
             "f7",
             "f_",
             "fp",
@@ -3205,66 +3640,58 @@
         ]
     },
     "ak": {
-        "file": "ak.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ak.java",
         "references": [
             "b6",
             "em"
         ]
     },
     "f7": {
-        "file": "f7.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f7.java",
         "references": []
     },
-    "e3$b": {
-        "file": "e3$b.java",
+    "fe$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fe$b$b.java",
+        "references": []
+    },
+    "ee$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ee$a$a.java",
         "references": [
-            "by",
-            "eh",
-            "g5"
+            "fp"
         ]
     },
     "bc": {
-        "file": "bc.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bc.java",
         "references": [
             "hy"
         ]
     },
     "bo": {
-        "file": "bo.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bo.java",
         "references": [
             "Main",
-            "em",
-            "bo$a",
-            "bo$a",
-            "bo$a",
-            "bo$a"
+            "em"
         ]
     },
     "ef": {
-        "file": "ef.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ef.java",
         "references": [
             "ck",
             "gv"
         ]
     },
-    "b1$a": {
-        "file": "b1$a.java",
-        "references": [
-            "b1",
-            "e2",
-            "eb",
-            "em",
-            "fo"
-        ]
+    "gu$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gu$a$a.java",
+        "references": []
     },
     "d2": {
-        "file": "d2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d2.java",
         "references": [
             "dm"
         ]
     },
     "ek": {
-        "file": "ek.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ek.java",
         "references": [
             "b1",
             "bx",
@@ -3274,101 +3701,121 @@
         ]
     },
     "ai": {
-        "file": "ai.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ai.java",
         "references": [
             "fp"
         ]
     },
-    "e7$b": {
-        "file": "e7$b.java",
+    "bs$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bs$a$a.java",
+        "references": []
+    },
+    "ay$c$c": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ay$c$c.java",
         "references": [
-            "EyeAndKoboldColor"
+            "ay"
+        ]
+    },
+    "z$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/z$a$a.java",
+        "references": [
+            "EyeAndKoboldColor",
+            "ax",
+            "c7",
+            "z"
+        ]
+    },
+    "eb$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eb$a$a.java",
+        "references": [
+            "eb"
+        ]
+    },
+    "el$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/el$a$a.java",
+        "references": [
+            "em",
+            "fp"
+        ]
+    },
+    "bw$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bw$a$a.java",
+        "references": [
+            "bw",
+            "r"
         ]
     },
     "gp": {
-        "file": "gp.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gp.java",
         "references": [
             "eb",
-            "gi",
-            "gp$a",
-            "gp$a",
-            "gp$a"
+            "gi"
         ]
     },
-    "ct$a": {
-        "file": "ct$a.java",
+    "fe$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fe$a$a.java",
         "references": [
-            "ct",
-            "em",
-            "f_"
+            "fe"
+        ]
+    },
+    "ay$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ay$a$a.java",
+        "references": [
+            "ay"
+        ]
+    },
+    "gz$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gz$a$a.java",
+        "references": [
+            "d3",
+            "ds",
+            "gz"
         ]
     },
     "ey": {
-        "file": "ey.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ey.java",
         "references": [
             "em"
         ]
     },
-    "dy$b": {
-        "file": "dy$b.java",
-        "references": []
-    },
-    "el$a": {
-        "file": "el$a.java",
+    "es$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/es$a$a.java",
         "references": [
-            "em",
             "fp"
         ]
     },
-    "x$a$b": {
-        "file": "x$a$b.java",
-        "references": []
-    },
-    "dp": {
-        "file": "dp.java",
+    "t$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/t$a$a.java",
         "references": [
-            "d_",
-            "eb",
-            "em"
+            "t"
         ]
     },
-    "g3$a": {
-        "file": "g3$a.java",
+    "dp": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dp.java",
         "references": [
-            "e1"
+            "b6",
+            "d_",
+            "eb",
+            "em",
+            "gc",
+            "p",
+            "p"
         ]
     },
     "d3": {
-        "file": "d3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d3.java",
         "references": [
             "ds",
             "ei",
             "em"
         ]
     },
-    "ej$a": {
-        "file": "ej$a.java",
-        "references": [
-            "eb",
-            "ej",
-            "em",
-            "gp"
-        ]
-    },
-    "em$a": {
-        "file": "em$a.java",
-        "references": []
-    },
-    "da$a": {
-        "file": "da$a.java",
-        "references": []
-    },
     "g5": {
-        "file": "g5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g5.java",
         "references": []
     },
     "i": {
-        "file": "i.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/i.java",
         "references": [
             "EyeAndKoboldColor",
             "ax",
@@ -3378,14 +3825,26 @@
         ]
     },
     "gn": {
-        "file": "gn.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gn.java",
         "references": [
             "e3",
             "em"
         ]
     },
+    "em$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/em$a$a.java",
+        "references": []
+    },
+    "g_$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g_$a$a.java",
+        "references": [
+            "em",
+            "f_",
+            "g_"
+        ]
+    },
     "f8": {
-        "file": "f8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f8.java",
         "references": [
             "Main",
             "ak",
@@ -3393,14 +3852,18 @@
             "be",
             "bj",
             "bt",
+            "c",
             "ce",
             "cj",
             "ck",
             "cy",
             "d",
             "dh",
+            "ds",
             "em",
+            "ep",
             "f_",
+            "fh",
             "fp",
             "fq",
             "ga",
@@ -3412,22 +3875,20 @@
             "ak",
             "ak",
             "ak",
-            "f8$b",
-            "f8$b"
+            "c",
+            "c",
+            "c"
         ]
     },
-    "h6$a": {
-        "file": "h6$a.java",
+    "ho$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ho$a$a.java",
         "references": [
-            "ax",
-            "cj",
-            "ge",
-            "gm",
-            "h6"
+            "em",
+            "fp"
         ]
     },
     "et": {
-        "file": "et.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/et.java",
         "references": [
             "az",
             "bx",
@@ -3439,93 +3900,97 @@
             "fb"
         ]
     },
-    "aq": {
-        "file": "aq.java",
+    "x$a$b$a$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/x$a$b$a$b.java",
         "references": [
-            "aq$a",
-            "aq$a"
+            "x"
         ]
     },
-    "gi$a": {
-        "file": "gi$a.java",
+    "aq": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/aq.java",
         "references": []
     },
-    "bs$a": {
-        "file": "bs$a.java",
-        "references": []
+    "e3$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e3$a$a.java",
+        "references": [
+            "fp"
+        ]
     },
     "gw": {
-        "file": "gw.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gw.java",
         "references": [
             "r"
         ]
     },
+    "dy$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dy$b$b.java",
+        "references": []
+    },
     "eh": {
-        "file": "eh.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eh.java",
         "references": []
     },
     "d9": {
-        "file": "d9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d9.java",
         "references": [
             "dm",
             "gx"
         ]
     },
-    "e0$a": {
-        "file": "e0$a.java",
+    "a6$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a6$a$a.java",
         "references": [
-            "em",
-            "fp"
+            "a6",
+            "em"
         ]
     },
-    "ff$a": {
-        "file": "ff$a.java",
-        "references": [
-            "EyeAndKoboldColor"
-        ]
+    "w$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/w$a$a.java",
+        "references": []
     },
     "a9": {
-        "file": "a9.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a9.java",
         "references": [
             "ap",
             "y"
         ]
     },
-    "t": {
-        "file": "t.java",
+    "hy$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/hy$a$a.java",
         "references": [
-            "t$a",
-            "t$a",
-            "t$a"
+            "b3",
+            "ff",
+            "ge",
+            "hy",
+            "j"
         ]
     },
-    "b_$a": {
-        "file": "b_$a.java",
+    "t": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/t.java",
+        "references": []
+    },
+    "en$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/en$a$a.java",
         "references": [
-            "b_"
+            "em",
+            "en"
         ]
     },
     "c5": {
-        "file": "c5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c5.java",
         "references": [
             "cv",
             "em"
         ]
     },
-    "t$a": {
-        "file": "t$a.java",
-        "references": [
-            "t"
-        ]
-    },
     "c3": {
-        "file": "c3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c3.java",
         "references": [
             "gx"
         ]
     },
     "ClientProxy": {
-        "file": "ClientProxy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ClientProxy.java",
         "references": [
             "CommonProxy",
             "Main",
@@ -3543,87 +4008,17 @@
             "w"
         ]
     },
-    "ec$a": {
-        "file": "ec$a.java",
-        "references": [
-            "fp"
-        ]
-    },
     "gq": {
-        "file": "gq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gq.java",
         "references": [
-            "b6",
+            "a",
             "br",
-            "cy",
-            "em",
             "gw",
-            "a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "a",
-            "a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a",
-            "gq$a"
+            "a"
         ]
     },
     "e": {
-        "file": "e.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e.java",
         "references": [
             "al",
             "b6",
@@ -3633,11 +4028,11 @@
         ]
     },
     "c_": {
-        "file": "c_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c_.java",
         "references": []
     },
     "da": {
-        "file": "da.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/da.java",
         "references": [
             "af",
             "av",
@@ -3661,144 +4056,163 @@
             "gv",
             "gx",
             "p",
+            "p",
             "p"
         ]
     },
+    "eb$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/eb$b$b.java",
+        "references": [
+            "fp"
+        ]
+    },
     "ag": {
-        "file": "ag.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ag.java",
         "references": [
             "b6",
             "c4",
             "gv"
         ]
     },
-    "eb$b": {
-        "file": "eb$b.java",
-        "references": [
-            "fp"
-        ]
-    },
     "z": {
-        "file": "z.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/z.java",
         "references": [
             "EyeAndKoboldColor",
             "ax",
-            "c7",
-            "z$a",
-            "z$a",
-            "z$a"
+            "c7"
         ]
     },
     "fw": {
-        "file": "fw.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fw.java",
         "references": [
             "ei",
             "em",
-            "fy",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a",
-            "fw$a"
+            "fy"
         ]
     },
     "ab": {
-        "file": "ab.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ab.java",
         "references": [
             "cc",
             "em",
-            "f_",
-            "ab$a",
-            "ab$a",
-            "ab$a"
+            "f_"
         ]
     },
     "go": {
-        "file": "go.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/go.java",
         "references": [
             "at"
         ]
     },
-    "gs": {
-        "file": "gs.java",
-        "references": []
-    },
-    "e7$a": {
-        "file": "e7$a.java",
+    "s$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/s$a$a.java",
         "references": [
-            "fp"
+            "ei",
+            "em",
+            "fp",
+            "ge",
+            "gz",
+            "s"
         ]
     },
+    "gs": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gs.java",
+        "references": []
+    },
     "ho": {
-        "file": "ho.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ho.java",
         "references": [
             "em",
             "fp"
         ]
     },
     "cs": {
-        "file": "cs.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cs.java",
         "references": [
             "f_"
         ]
     },
-    "dq$a": {
-        "file": "dq$a.java",
-        "references": [
-            "dq",
-            "eb",
-            "em"
-        ]
-    },
     "ev": {
-        "file": "ev.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ev.java",
         "references": [
+            "bw",
+            "c",
             "cj",
             "cz",
             "d3",
+            "dc",
+            "ds",
             "em",
+            "fh",
             "fp",
-            "ge"
+            "ge",
+            "gj",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
+        ]
+    },
+    "br$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/br$b$b.java",
+        "references": [
+            "c8",
+            "fy",
+            "gw"
         ]
     },
     "ft": {
-        "file": "ft.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ft.java",
         "references": [
             "e2",
-            "em",
-            "ft$a",
-            "ft$a"
+            "em"
         ]
     },
     "b8": {
-        "file": "b8.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b8.java",
         "references": [
             "em"
         ]
     },
-    "ax$b": {
-        "file": "ax$b.java",
-        "references": [
-            "EyeAndKoboldColor",
-            "aa",
-            "ax",
-            "bs",
-            "cj",
-            "ff",
-            "ge",
-            "h6"
-        ]
-    },
-    "ce$b": {
-        "file": "ce$b.java",
-        "references": []
-    },
     "dm": {
-        "file": "dm.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dm.java",
         "references": [
             "bu",
             "d_",
@@ -3806,21 +4220,24 @@
             "em",
             "fp",
             "p",
+            "p",
             "p"
         ]
     },
-    "g3$b": {
-        "file": "g3$b.java",
+    "gh$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gh$a$a.java",
         "references": [
-            "b4"
+            "em",
+            "ge",
+            "gh"
         ]
     },
     "d": {
-        "file": "d.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d.java",
         "references": []
     },
     "g": {
-        "file": "g.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g.java",
         "references": [
             "ck",
             "e2",
@@ -3828,42 +4245,30 @@
             "f",
             "fp",
             "r",
-            "g$b",
             "r",
             "r",
-            "r",
-            "g$a",
-            "g$a",
-            "g$a",
-            "g$a",
-            "g$a",
-            "g$a",
-            "g$a"
+            "r"
         ]
     },
     "df": {
-        "file": "df.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/df.java",
         "references": []
     },
     "gk": {
-        "file": "gk.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gk.java",
         "references": [
             "eb",
-            "em",
-            "gk$a",
-            "gk$a",
-            "gk$a",
-            "gk$a"
+            "em"
         ]
     },
     "fv": {
-        "file": "fv.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fv.java",
         "references": [
             "at"
         ]
     },
     "am": {
-        "file": "am.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/am.java",
         "references": [
             "ai",
             "b6",
@@ -3873,7 +4278,7 @@
         ]
     },
     "q": {
-        "file": "q.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/q.java",
         "references": [
             "ap",
             "ax",
@@ -3891,25 +4296,24 @@
             "v"
         ]
     },
-    "fn$a": {
-        "file": "fn$a.java",
+    "da$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/da$a$a.java",
         "references": []
     },
-    "bo$a": {
-        "file": "bo$a.java",
+    "a8$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a8$a$a.java",
         "references": [
-            "Main",
-            "bo",
-            "em"
+            "a8"
         ]
     },
     "ce": {
-        "file": "ce.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ce.java",
         "references": [
             "ClientProxy",
             "ak",
             "b6",
             "be",
+            "bm",
             "cv",
             "dh",
             "em",
@@ -3918,51 +4322,21 @@
             "f_",
             "fp",
             "gc",
-            "gj",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a",
-            "ce$a"
-        ]
-    },
-    "g$b": {
-        "file": "g$b.java",
-        "references": [
-            "f"
+            "gj"
         ]
     },
     "di": {
-        "file": "di.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/di.java",
         "references": [
+            "b6",
             "dm",
             "eb",
-            "em"
-        ]
-    },
-    "ex$a": {
-        "file": "ex$a.java",
-        "references": [
             "em",
-            "fp"
+            "gc"
         ]
     },
     "cc": {
-        "file": "cc.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cc.java",
         "references": [
             "av",
             "b6",
@@ -3980,35 +4354,20 @@
             "c"
         ]
     },
-    "ff$c": {
-        "file": "ff$c.java",
+    "dj$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dj$a$a.java",
         "references": [
-            "ax",
-            "b3",
-            "em",
-            "ff",
-            "ge"
+            "fp"
         ]
-    },
-    "gf$a": {
-        "file": "gf$a.java",
-        "references": [
-            "gf",
-            "v"
-        ]
-    },
-    "d5$a": {
-        "file": "d5$a.java",
-        "references": []
     },
     "ao": {
-        "file": "ao.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ao.java",
         "references": [
             "f_"
         ]
     },
     "dv": {
-        "file": "dv.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dv.java",
         "references": [
             "b6",
             "be",
@@ -4018,52 +4377,33 @@
             "fp"
         ]
     },
-    "cd$a": {
-        "file": "cd$a.java",
-        "references": [
-            "cd",
-            "em",
-            "f_"
-        ]
-    },
     "a3": {
-        "file": "a3.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/a3.java",
         "references": [
             "f_"
         ]
     },
     "dk": {
-        "file": "dk.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dk.java",
         "references": [
             "d_",
             "el"
         ]
     },
     "e1": {
-        "file": "e1.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e1.java",
         "references": []
     },
-    "ce$a": {
-        "file": "ce$a.java",
-        "references": [
-            "b6",
-            "f7"
-        ]
-    },
     "ej": {
-        "file": "ej.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ej.java",
         "references": [
             "eb",
             "em",
-            "gp",
-            "ej$a",
-            "ej$a",
-            "ej$a",
-            "ej$a"
+            "gp"
         ]
     },
     "e4": {
-        "file": "e4.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e4.java",
         "references": [
             "em",
             "gj",
@@ -4073,14 +4413,8 @@
             "r"
         ]
     },
-    "dy$a": {
-        "file": "dy$a.java",
-        "references": [
-            "fp"
-        ]
-    },
     "l": {
-        "file": "l.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/l.java",
         "references": [
             "b6",
             "ei",
@@ -4089,28 +4423,32 @@
         ]
     },
     "k": {
-        "file": "k.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/k.java",
         "references": [
             "i"
         ]
     },
     "gh": {
-        "file": "gh.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gh.java",
         "references": [
             "em",
-            "ge",
-            "gh$a",
-            "gh$a"
+            "ge"
+        ]
+    },
+    "c9$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/c9$a$a.java",
+        "references": [
+            "fp"
         ]
     },
     "fd": {
-        "file": "fd.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fd.java",
         "references": [
             "br"
         ]
     },
     "e2": {
-        "file": "e2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e2.java",
         "references": [
             "a6",
             "bo",
@@ -4123,30 +4461,18 @@
             "r"
         ]
     },
-    "fc$a": {
-        "file": "fc$a.java",
-        "references": [
-            "ax",
-            "bs",
-            "fc",
-            "ge",
-            "h6"
-        ]
-    },
-    "eu$a": {
-        "file": "eu$a.java",
-        "references": [
-            "eu"
-        ]
+    "d5$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d5$a$a.java",
+        "references": []
     },
     "aa": {
-        "file": "aa.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/aa.java",
         "references": [
             "ff"
         ]
     },
     "fy": {
-        "file": "fy.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fy.java",
         "references": [
             "e0",
             "e3",
@@ -4174,19 +4500,12 @@
             "r"
         ]
     },
-    "s$a": {
-        "file": "s$a.java",
-        "references": [
-            "ei",
-            "em",
-            "fp",
-            "ge",
-            "gz",
-            "s"
-        ]
+    "gi$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gi$a$a.java",
+        "references": []
     },
     "v": {
-        "file": "v.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/v.java",
         "references": [
             "Main",
             "em",
@@ -4198,11 +4517,11 @@
         ]
     },
     "f2": {
-        "file": "f2.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/f2.java",
         "references": []
     },
     "dg": {
-        "file": "dg.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dg.java",
         "references": [
             "b6",
             "d9",
@@ -4216,86 +4535,78 @@
             "fp"
         ]
     },
-    "b0": {
-        "file": "b0.java",
-        "references": [
-            "em",
-            "ex",
-            "b0$a",
-            "b0$a",
-            "b0$a"
-        ]
-    },
-    "ei$a": {
-        "file": "ei$a.java",
+    "dv$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dv$b$b.java",
         "references": []
     },
+    "b0": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b0.java",
+        "references": [
+            "em",
+            "ex"
+        ]
+    },
     "bk": {
-        "file": "bk.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bk.java",
         "references": [
             "em",
             "fp",
-            "v",
-            "bk$a",
-            "bk$a",
-            "bk$a"
+            "v"
         ]
     },
     "bg": {
-        "file": "bg.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bg.java",
         "references": [
             "ev",
-            "fp",
-            "bg$a",
-            "bg$a",
-            "bg$a",
-            "bg$a"
+            "fp"
         ]
     },
-    "gd$a": {
-        "file": "gd$a.java",
+    "h$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/h$a$a.java",
         "references": [
-            "ei",
-            "em",
-            "gd"
+            "f"
         ]
     },
     "b_": {
-        "file": "b_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/b_.java",
         "references": [
-            "fy",
-            "b_$a",
-            "b_$a"
+            "ei",
+            "em",
+            "fy"
         ]
     },
+    "dg$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dg$a$a.java",
+        "references": []
+    },
     "fm": {
-        "file": "fm.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fm.java",
         "references": []
     },
     "bd": {
-        "file": "bd.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bd.java",
         "references": [
             "b5",
-            "fy",
-            "bd$a",
-            "bd$a"
+            "fy"
         ]
     },
     "d5": {
-        "file": "d5.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/d5.java",
         "references": [
             "dm"
         ]
     },
     "Main": {
-        "file": "Main.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/Main.java",
         "references": [
             "CommonProxy",
             "aw",
             "ax",
             "bj",
             "br",
+            "cv",
             "d6",
+            "ei",
             "em",
             "ff",
             "fs",
@@ -4307,36 +4618,71 @@
             "CommonProxy"
         ]
     },
+    "ff$b$b": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ff$b$b.java",
+        "references": [
+            "fm",
+            "fp"
+        ]
+    },
+    "e7$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/e7$a$a.java",
+        "references": [
+            "fp"
+        ]
+    },
+    "ax$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ax$a$a.java",
+        "references": [
+            "EyeAndKoboldColor",
+            "Main",
+            "bs",
+            "em",
+            "ff",
+            "fm",
+            "fp",
+            "ge",
+            "h6"
+        ]
+    },
     "g_": {
-        "file": "g_.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/g_.java",
         "references": [
             "em",
-            "f_",
-            "g_$a",
-            "g_$a",
-            "g_$a"
+            "f_"
         ]
     },
     "gl": {
-        "file": "gl.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gl.java",
         "references": []
     },
     "bl": {
-        "file": "bl.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bl.java",
         "references": []
     },
     "cq": {
-        "file": "cq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cq.java",
         "references": [
             "at"
         ]
     },
-    "gu$a": {
-        "file": "gu$a.java",
-        "references": []
+    "ex$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ex$a$a.java",
+        "references": [
+            "em",
+            "fp"
+        ]
+    },
+    "gk$a$a": {
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/gk$a$a.java",
+        "references": [
+            "eb",
+            "em",
+            "gk"
+        ]
     },
     "m": {
-        "file": "m.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/m.java",
         "references": [
             "b6",
             "c",
@@ -4348,11 +4694,11 @@
         ]
     },
     "y": {
-        "file": "y.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/y.java",
         "references": []
     },
     "ep": {
-        "file": "ep.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/ep.java",
         "references": [
             "an",
             "ar",
@@ -4363,45 +4709,51 @@
         ]
     },
     "fz": {
-        "file": "fz.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/fz.java",
         "references": [
+            "c",
             "ch",
             "co",
+            "d3",
             "df",
+            "ds",
             "ei",
+            "fh",
             "fo",
             "fp",
             "ge",
+            "gg",
+            "gj",
             "gz",
-            "h"
+            "h",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c",
+            "c"
         ]
     },
     "dw": {
-        "file": "dw.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/dw.java",
         "references": []
     },
-    "ac$a": {
-        "file": "ac$a.java",
-        "references": [
-            "ac",
-            "em",
-            "fg"
-        ]
-    },
     "cm": {
-        "file": "cm.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/cm.java",
         "references": [
             "c1"
         ]
     },
     "bq": {
-        "file": "bq.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bq.java",
         "references": [
             "ei"
         ]
     },
     "bi": {
-        "file": "bi.java",
+        "file": "../fap-craft/Fapcraft-Mod-v1.1-Forge-1.12.2/com/trolmastercard/sexmod/java_files/bi.java",
         "references": [
             "Main",
             "al",
@@ -4432,14 +4784,6 @@
             "fz",
             "gi",
             "i"
-        ]
-    },
-    "ft$a": {
-        "file": "ft$a.java",
-        "references": [
-            "e2",
-            "em",
-            "ft"
         ]
     }
 }

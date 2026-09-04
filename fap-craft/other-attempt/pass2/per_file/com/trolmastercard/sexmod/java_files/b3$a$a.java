@@ -1,0 +1,83 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  javax.vecmath.Vector4d
+ *  net.minecraft.entity.player.EntityPlayerMP
+ *  net.minecraft.util.math.BlockPos
+ *  net.minecraftforge.fml.common.FMLCommonHandler
+ *  net.minecraftforge.fml.common.network.simpleimpl.IMessage
+ *  net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+ *  net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+ */
+package com.trolmastercard.sexmod;
+
+import com.trolmastercard.sexmod.EyeAndKoboldColor;
+import com.trolmastercard.sexmod.ax;
+import com.trolmastercard.sexmod.b3;
+import com.trolmastercard.sexmod.e4;
+import com.trolmastercard.sexmod.ff;
+import com.trolmastercard.sexmod.ge;
+import com.trolmastercard.sexmod.j;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import javax.vecmath.Vector4d;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.util.math.BlockPos;
+import net.minecraftforge.fml.common.FMLCommonHandler;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler;
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
+
+public static class b3.a.a
+implements IMessageHandler<b3, IMessage> {
+    public IMessage a(b3 b32, MessageContext messageContext) {
+        if (!b32.a) {
+            System.out.println("received an invalid message @GetTribeUIValues :(");
+            return null;
+        }
+        if (messageContext.side.isClient()) {
+            j.d = b32.b;
+            ff.aY = b32.c;
+            return null;
+        }
+        FMLCommonHandler.instance().getMinecraftServerInstance().func_152344_a(() -> {
+            UUID uUID;
+            UUID uUID2 = ax.a(messageContext.getServerHandler().field_147369_b.getPersistentID());
+            if (uUID2 == null) {
+                ge.b.sendTo((IMessage)b3.a(), messageContext.getServerHandler().field_147369_b);
+                return;
+            }
+            boolean bl = ax.c(uUID2);
+            EntityPlayerMP entityPlayerMP = messageContext.getServerHandler().field_147369_b;
+            HashMap<UUID, BlockPos> hashMap = ax.a(uUID2, entityPlayerMP.field_70170_p);
+            List<ff> list = ax.n(uUID2);
+            ArrayList<Vector4d> arrayList = new ArrayList<Vector4d>();
+            int n2 = ax.l(uUID2).getWoolMeta();
+            HashSet<UUID> hashSet = new HashSet<UUID>();
+            for (ff object : list) {
+                if (object.field_70128_L || hashSet.contains(uUID = object.f())) continue;
+                if (object.aA) {
+                    n2 = EyeAndKoboldColor.safeValueOf((String)object.func_184212_Q().func_187225_a(e4.N)).getWoolMeta();
+                }
+                arrayList.add(new Vector4d(object.field_70165_t, object.field_70163_u, object.field_70161_v, (double)n2));
+                hashSet.add(uUID);
+            }
+            for (Map.Entry entry : hashMap.entrySet()) {
+                if (hashSet.contains(entry.getKey())) continue;
+                uUID = (BlockPos)entry.getValue();
+                arrayList.add(new Vector4d((double)uUID.func_177958_n(), (double)uUID.func_177956_o(), (double)uUID.func_177952_p(), (double)n2));
+            }
+            ge.b.sendTo((IMessage)new b3(bl, arrayList), entityPlayerMP);
+        });
+        return null;
+    }
+
+    private static RuntimeException a(RuntimeException runtimeException) {
+        return runtimeException;
+    }
+}
