@@ -46,18 +46,18 @@ public class Main {
     @SidedProxy(clientSide="com.trolmastercard.sexmod.ClientProxy", serverSide="com.trolmastercard.sexmod.CommonProxy")
     public static CommonProxy proxy;
     public static final Logger LOGGER;
-
+    // first thing order
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent fMLPreInitializationEvent) {
         GeckoLib.initialize();
         proxy.preInitRegistries(fMLPreInitializationEvent);
     }
-
+    // second thing order
     @Mod.EventHandler
     public void init(FMLInitializationEvent fMLInitializationEvent) throws IOException {
         proxy.initRegistries(fMLInitializationEvent);
     }
-
+    // third thing order
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent fMLPostInitializationEvent) throws IOException {
         proxy.postInit(fMLPostInitializationEvent);

@@ -13,7 +13,6 @@ import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 
 import com.trolmastercard.sexmod.ax;
-import com.trolmastercard.sexmod.b4;
 import com.trolmastercard.sexmod.cj;
 import com.trolmastercard.sexmod.e3;
 import com.trolmastercard.sexmod.g3;
@@ -49,18 +48,20 @@ extends WorldSavedData
 implements IWorldGenerator {
     // was String j = "sexmod:generation";
     static final String genTag = "sexmod:generation";
-    static final int h = 156;
-    static final int a = 62;
-    static final int b = 6;
-    final double f = 0.004f;
+    // static final int h = 156;
+    // static final int a = 62;
+    // static final int b = 6;
+    // final double f = 0.004f;
     // was boolean i = true;
     public static boolean shouldGenerate = true;
     // was final List<b.b> e = new ArrayList<b.b>();
     final List<StructConfig> structConfig = new ArrayList<StructConfig>();
     // was  final List<a$a> d = new ArrayList<a$a>();
     final List<StructRecord> nbtInfo = new ArrayList<StructRecord>();
+    
     private static g3 g = null;
     static boolean c = true;
+    
     public static g3 b() {
         if (g == null) {
             g = new g3();
@@ -147,7 +148,7 @@ implements IWorldGenerator {
     }
 
     public void generate(Random random, int n, int n2, World world, IChunkGenerator iChunkGenerator, IChunkProvider iChunkProvider) {
-        if (!i) {
+        if (!shouldGenerate) {
             return;
         }
         if (world.getWorldType() == WorldType.FLAT) {
@@ -163,7 +164,7 @@ implements IWorldGenerator {
             return;
         }
         c = false;
-        for (StructConfig struct : this.e) {
+        for (StructConfig struct : this.structConfig) {
             this.a(struct, random, n, n2, world);
         }
         c = true;
