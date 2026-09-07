@@ -142,16 +142,16 @@ public class Main {
             writer.close();
             
             g3.shouldGenerate = true;
-            cv.d = false;
-            ei.ag = true;
+            cv.loadSkins = false;
+            ei.flightAllowed = true;
             return;
         }
         int shouldGen = settings.indexOf("shouldGenBuildings");
         int loadSkins = settings.indexOf("shouldLoadOtherSkins");
         int allowFlight = settings.indexOf("allowFlying");
         g3.shouldGenerate = 't' == settings.charAt(shouldGen + 20);
-        cv.d = 't' == settings.charAt(loadSkins + 22);
-        ei.ag = 't' == settings.charAt(allowFlight + 13);
+        cv.loadSkins = 't' == settings.charAt(loadSkins + 22);
+        ei.flightAllowed = 't' == settings.charAt(allowFlight + 13);
     }
 
     static {
