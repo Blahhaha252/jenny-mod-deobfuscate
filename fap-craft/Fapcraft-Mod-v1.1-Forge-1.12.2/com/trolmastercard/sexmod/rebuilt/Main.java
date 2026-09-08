@@ -11,7 +11,7 @@ import com.trolmastercard.sexmod.ei;
 import com.trolmastercard.sexmod.em;
 import com.trolmastercard.sexmod.ff;
 import com.trolmastercard.sexmod.fs;
-import com.trolmastercard.sexmod.g3;
+import com.trolmastercard.sexmod.StructureGenerator;
 import com.trolmastercard.sexmod.gm;
 import com.trolmastercard.sexmod.gn;
 import com.trolmastercard.sexmod.v;
@@ -141,7 +141,7 @@ public class Main {
             writer.write("{\"shouldGenBuildings\":true,\"shouldLoadOtherSkins\":false,\"allowFlying\":true}");
             writer.close();
             
-            g3.shouldGenerate = true;
+            StructureGenerator.shouldGenerate = true;
             cv.loadSkins = false;
             ei.flightAllowed = true;
             return;
@@ -149,7 +149,7 @@ public class Main {
         int shouldGen = settings.indexOf("shouldGenBuildings");
         int loadSkins = settings.indexOf("shouldLoadOtherSkins");
         int allowFlight = settings.indexOf("allowFlying");
-        g3.shouldGenerate = 't' == settings.charAt(shouldGen + 20);
+        StructureGenerator.shouldGenerate = 't' == settings.charAt(shouldGen + 20);
         cv.loadSkins = 't' == settings.charAt(loadSkins + 22);
         ei.flightAllowed = 't' == settings.charAt(allowFlight + 13);
     }

@@ -20,7 +20,7 @@ import com.trolmastercard.sexmod.br;
 import com.trolmastercard.sexmod.c;
 import com.trolmastercard.sexmod.et;
 import com.trolmastercard.sexmod.f9;
-import com.trolmastercard.sexmod.g3;
+import com.trolmastercard.sexmod.StructureGenerator;
 import com.trolmastercard.sexmod.ge;
 import java.io.IOException;
 import net.minecraftforge.fml.common.FMLCommonHandler;
@@ -34,7 +34,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
     public void preInitRegistries(FMLPreInitializationEvent fMLPreInitializationEvent) {
-        GameRegistry.registerWorldGenerator((IWorldGenerator)g3.b(), (int)0);
+        GameRegistry.registerWorldGenerator((IWorldGenerator)StructureGenerator.getInstance(), (int)0);
         bi.a();
         f9.a();
     }

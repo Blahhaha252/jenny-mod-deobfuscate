@@ -1,5 +1,5 @@
 package com.trolmastercard.sexmod;
-
+// file was named g3
 
 import net.minecraft.util.Mirror;
 import net.minecraft.world.WorldServer;
@@ -15,7 +15,6 @@ import net.minecraft.world.gen.structure.template.TemplateManager;
 import com.trolmastercard.sexmod.ax;
 import com.trolmastercard.sexmod.cj;
 import com.trolmastercard.sexmod.e3;
-import com.trolmastercard.sexmod.g3;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -43,7 +42,9 @@ import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.fml.common.IWorldGenerator;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class g3
+
+//was public class g3
+public class StructureGenerator
 extends WorldSavedData
 implements IWorldGenerator {
     // was String j = "sexmod:generation";
@@ -58,21 +59,24 @@ implements IWorldGenerator {
     final List<StructConfig> structConfig = new ArrayList<StructConfig>();
     // was  final List<a$a> d = new ArrayList<a$a>();
     final List<StructRecord> nbtInfo = new ArrayList<StructRecord>();
-    
-    private static g3 g = null;
+    // was private static g3 g = null;
+    private static StructureGenerator instance = null;
     static boolean c = true;
     
-    public static g3 b() {
-        if (g == null) {
-            g = new g3();
+    //was public static g3 b()
+    public static StructureGenerator getInstance() {
+        if (instance == null) {
+            instance = new StructureGenerator();
         }
-        return g;
+        return instance;
     }
-    public g3(String string) {
+    
+    //was public g3(String string)
+    public StructureGenerator(String string) {
         this();
     }
-
-    private g3() {
+    // was private g3()
+    private StructureGenerator() {
         super(genTag);
         g = this;
         
@@ -82,8 +86,8 @@ implements IWorldGenerator {
         this.structConfig.add( new StructConfig("bia", new HashSet<Biome>(Arrays.asList(Biomes.MUTATED_BIRCH_FOREST, Biomes.BIRCH_FOREST)), new Vec3i(11, 9, 15), 2, true));
         this.structConfig.add( new StructConfig("luna", new HashSet<Biome>(Arrays.asList(Biomes.OCEAN, Biomes.DEEP_OCEAN)), new Vec3i(3, 7, 10), 0, false));
     }
-
-    public void a() {
+    // was public void a()
+    public void clearNBTInfo() {
         this.nbtInfo.clear();
     }
 
@@ -97,7 +101,7 @@ implements IWorldGenerator {
     @SubscribeEvent
     public void a(WorldEvent.Load load) {
         World world = load.getWorld();
-        world.getMapStorage().getOrLoadData(g3.class, genTag);
+        world.getMapStorage().getOrLoadData(StructureGenerator.class, genTag);
     }
 
     public void readFromNBT(NBTTagCompound nBTTagCompound) {
@@ -154,6 +158,7 @@ implements IWorldGenerator {
         if (world.getWorldType() == WorldType.FLAT) {
             return;
         }
+        // working on this
         this.b(world, random, n, n2);
         this.a(world, random, n, n2);
         this.a(random, n, n2, world);
@@ -329,7 +334,7 @@ implements IWorldGenerator {
         }
     }
     
-    // new recreation
+    // was static class g3$a$a
     static class StructRecord {
         int x;
         int y;
@@ -342,6 +347,7 @@ implements IWorldGenerator {
         
     }
 }
+// was static class g3$b$b
 static class StructConfig extends WorldGenerator{
     public static final WorldServer WS = FMLCommonHandler.instance().getMinecraftServerInstance().getWorld(0);
     public static final PlacementSettings placeSettings = new PlacementSettings().setChunk(null).setIgnoreEntities(false).setMirror(Mirror.NONE).setRotation(Rotation.NONE);

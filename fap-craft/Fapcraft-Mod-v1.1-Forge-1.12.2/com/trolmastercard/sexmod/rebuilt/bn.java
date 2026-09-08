@@ -36,7 +36,7 @@ import com.trolmastercard.sexmod.fr;
 import com.trolmastercard.sexmod.fu;
 import com.trolmastercard.sexmod.g;
 import com.trolmastercard.sexmod.g2;
-import com.trolmastercard.sexmod.g3;
+import com.trolmastercard.sexmod.StructureGenerator;
 import com.trolmastercard.sexmod.ga;
 import com.trolmastercard.sexmod.gb;
 import com.trolmastercard.sexmod.gm;
@@ -58,46 +58,45 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class bn {
+    
     public static void a(boolean bl2) throws IOException {
-        block0: {
-            MinecraftForge.EVENT_BUS.register((Object)new ah());
-            MinecraftForge.EVENT_BUS.register((Object)new eo());
-            MinecraftForge.EVENT_BUS.register((Object)new q());
-            MinecraftForge.EVENT_BUS.register((Object)new co());
-            MinecraftForge.EVENT_BUS.register((Object)new gu());
-            MinecraftForge.EVENT_BUS.register((Object)new ho.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new g.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)ap.b);
-            MinecraftForge.EVENT_BUS.register((Object)hy.b);
-            MinecraftForge.EVENT_BUS.register((Object)hj.a);
-            MinecraftForge.EVENT_BUS.register((Object)new gp());
-            MinecraftForge.EVENT_BUS.register((Object)new fu());
-            MinecraftForge.EVENT_BUS.register((Object)new eb.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new ey());
-            MinecraftForge.EVENT_BUS.register((Object)dw.a);
-            MinecraftForge.EVENT_BUS.register((Object)new ff.c.c());
-            MinecraftForge.EVENT_BUS.register((Object)new hy.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new ax.b.b("tribes"));
-            MinecraftForge.EVENT_BUS.register((Object)new c7());
-            MinecraftForge.EVENT_BUS.register((Object)new am());
-            MinecraftForge.EVENT_BUS.register((Object)new e3.c.c());
-            MinecraftForge.EVENT_BUS.register((Object)new eq.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new ap.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new ad());
-            MinecraftForge.EVENT_BUS.register((Object)new f_.a.a());
-            MinecraftForge.EVENT_BUS.register((Object)new v());
-            MinecraftForge.EVENT_BUS.register((Object)cc.r);
-            MinecraftForge.EVENT_BUS.register((Object)aj.b);
-            MinecraftForge.EVENT_BUS.register((Object)new fq());
-            MinecraftForge.EVENT_BUS.register((Object)new gy());
-            MinecraftForge.EVENT_BUS.register((Object)new bj());
-            MinecraftForge.EVENT_BUS.register((Object)g3.b());
-            MinecraftForge.EVENT_BUS.register((Object)new f8.b.b());
-            MinecraftForge.EVENT_BUS.register((Object)new f4());
-            if (!bl2) break block0;
+        MinecraftForge.EVENT_BUS.register((Object)new ah());
+        MinecraftForge.EVENT_BUS.register((Object)new eo());
+        MinecraftForge.EVENT_BUS.register((Object)new q());
+        MinecraftForge.EVENT_BUS.register((Object)new co());
+        MinecraftForge.EVENT_BUS.register((Object)new gu());
+        MinecraftForge.EVENT_BUS.register((Object)new ho.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new g.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)ap.b);
+        MinecraftForge.EVENT_BUS.register((Object)hy.b);
+        MinecraftForge.EVENT_BUS.register((Object)hj.a);
+        MinecraftForge.EVENT_BUS.register((Object)new gp());
+        MinecraftForge.EVENT_BUS.register((Object)new fu());
+        MinecraftForge.EVENT_BUS.register((Object)new eb.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new ey());
+        MinecraftForge.EVENT_BUS.register((Object)dw.a);
+        MinecraftForge.EVENT_BUS.register((Object)new ff.c.c());
+        MinecraftForge.EVENT_BUS.register((Object)new hy.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new ax.b.b("tribes"));
+        MinecraftForge.EVENT_BUS.register((Object)new c7());
+        MinecraftForge.EVENT_BUS.register((Object)new am());
+        MinecraftForge.EVENT_BUS.register((Object)new e3.c.c());
+        MinecraftForge.EVENT_BUS.register((Object)new eq.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new ap.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new ad());
+        MinecraftForge.EVENT_BUS.register((Object)new f_.a.a());
+        MinecraftForge.EVENT_BUS.register((Object)new v());
+        MinecraftForge.EVENT_BUS.register((Object)cc.r);
+        MinecraftForge.EVENT_BUS.register((Object)aj.b);
+        MinecraftForge.EVENT_BUS.register((Object)new fq());
+        MinecraftForge.EVENT_BUS.register((Object)new gy());
+        MinecraftForge.EVENT_BUS.register((Object)new bj());
+        MinecraftForge.EVENT_BUS.register((Object)StructureGenerator.getInstance());
+        MinecraftForge.EVENT_BUS.register((Object)new f8.b.b());
+        MinecraftForge.EVENT_BUS.register((Object)new f4());
+        if (bl2) {
             bn.b();
         }
-    }
 
     @SideOnly(value=Side.CLIENT)
     static void b() {
