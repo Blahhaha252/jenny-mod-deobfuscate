@@ -108,7 +108,7 @@ implements IWorldGenerator {
     }
 
     public void readFromNBT(NBTTagCompound nBTTagCompound) {
-        this.a();
+        this.clearNBTInfo();
         NBTTagCompound nBTTagCompound2 = nBTTagCompound.getCompoundTag(genTag);
         int n = 0;
         while (true) {
@@ -157,7 +157,7 @@ implements IWorldGenerator {
         if (random.nextDouble() <= (double)0.004f) {
             int n3 = n * 16 + 8;
             int n4 = n2 * 16 + 8;
-            int n5 = cj.a(world, n3, n4);
+            int n5 = cj.getTerrainY(world, n3, n4);
             if (!(world.getBlockState(new BlockPos(n3, n5, n4)).getMaterial().isLiquid())) {
                 ax.a(world, new Vec3d((double)n3, (double)n5, (double)n4));
         }
@@ -211,7 +211,7 @@ implements IWorldGenerator {
         int z;
         for (x = startX; x < startX + tempX; x++) {
             for (z = startZ; z < startZ + tempZ; z++) {
-                int y = cj.a(world, x, z);
+                int y = cj.getTerrainY(world, x, z);
                 BlockPos bpWater = new BlockPos(x, y, z);
                 if (struct.requiresLand && world.getBlockState(bpWater).getBlock() == Blocks.WATER) {
                     return;

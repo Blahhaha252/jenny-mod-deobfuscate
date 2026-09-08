@@ -148,7 +148,7 @@ extends GeoEntityRenderer<cy> {
             return;
         }
         GL11.glDisable((int)2896);
-        this.j = b2.i() == c8.SEXMOD ? cj.a(cy2, f) : null;
+        this.j = b2.i() == c8.SEXMOD ? cj.getLightDirection(cy2, f) : null;
     }
 
     public void a(cy cy2, double d, double d2, double d3, float f, float f2) {

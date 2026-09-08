@@ -226,14 +226,14 @@ implements IAnimatable {
     }
 
     public static void a(em em2, String string) {
-        for (EntityPlayer entityPlayer : cj.a((Entity)em2)) {
+        for (EntityPlayer entityPlayer : cj.getTrackingPlayers((Entity)em2)) {
             entityPlayer.sendMessage((ITextComponent)new TextComponentString(string));
         }
     }
 
     public static void a(em em2, SoundEvent soundEvent, boolean bl) {
         Vec3d vec3d = em2.getPositionVector();
-        for (EntityPlayer entityPlayer : cj.a((Entity)em2)) {
+        for (EntityPlayer entityPlayer : cj.getTrackingPlayers((Entity)em2)) {
             Vec3d vec3d2;
             if (!bl) {
                 vec3d2 = vec3d;
@@ -1591,4 +1591,13 @@ lbl-1000:
     private static RuntimeException c(RuntimeException runtimeException) {
         return runtimeException;
     }
+    
+    public static enum em.a.a {
+        WALK,
+        FAST_WALK,
+        RUN;
+
+    }
+
 }
+

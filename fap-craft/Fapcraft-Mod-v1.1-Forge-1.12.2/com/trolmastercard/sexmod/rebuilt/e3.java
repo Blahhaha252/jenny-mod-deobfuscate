@@ -1,62 +1,5 @@
-/*
- * Decompiled with CFR 0.152.
- * 
- * Could not load the following classes:
- *  javax.annotation.Nonnull
- *  javax.annotation.Nullable
- *  javax.vecmath.Vector2f
- *  net.minecraft.block.Block
- *  net.minecraft.client.Minecraft
- *  net.minecraft.client.entity.EntityPlayerSP
- *  net.minecraft.client.gui.GuiScreen
- *  net.minecraft.entity.Entity
- *  net.minecraft.entity.EntityLiving
- *  net.minecraft.entity.EntityLivingBase
- *  net.minecraft.entity.ai.EntityAIBase
- *  net.minecraft.entity.ai.EntityAISwimming
- *  net.minecraft.entity.item.EntityItem
- *  net.minecraft.entity.player.EntityPlayer
- *  net.minecraft.entity.player.EntityPlayerMP
- *  net.minecraft.init.Blocks
- *  net.minecraft.init.Items
- *  net.minecraft.item.Item
- *  net.minecraft.item.ItemStack
- *  net.minecraft.nbt.NBTTagCompound
- *  net.minecraft.network.datasync.DataParameter
- *  net.minecraft.network.datasync.DataSerializer
- *  net.minecraft.network.datasync.DataSerializers
- *  net.minecraft.network.datasync.EntityDataManager
- *  net.minecraft.pathfinding.Path
- *  net.minecraft.pathfinding.PathNavigate
- *  net.minecraft.pathfinding.PathPoint
- *  net.minecraft.util.DamageSource
- *  net.minecraft.util.EnumHand
- *  net.minecraft.util.NonNullList
- *  net.minecraft.util.math.AxisAlignedBB
- *  net.minecraft.util.math.BlockPos
- *  net.minecraft.util.math.Vec3d
- *  net.minecraft.util.math.Vec3i
- *  net.minecraft.util.text.ITextComponent
- *  net.minecraft.util.text.TextComponentString
- *  net.minecraft.world.IBlockAccess
- *  net.minecraft.world.World
- *  net.minecraftforge.event.entity.living.LivingAttackEvent
- *  net.minecraftforge.fml.common.eventhandler.SubscribeEvent
- *  net.minecraftforge.fml.common.gameevent.InputEvent$KeyInputEvent
- *  net.minecraftforge.fml.common.gameevent.PlayerEvent$PlayerChangedDimensionEvent
- *  net.minecraftforge.fml.common.gameevent.TickEvent$ClientTickEvent
- *  net.minecraftforge.fml.common.gameevent.TickEvent$Phase
- *  net.minecraftforge.fml.common.network.simpleimpl.IMessage
- *  net.minecraftforge.fml.relauncher.Side
- *  net.minecraftforge.fml.relauncher.SideOnly
- *  org.apache.logging.log4j.Level
- *  software.bernie.geckolib3.core.IAnimatable
- *  software.bernie.geckolib3.core.PlayState
- *  software.bernie.geckolib3.core.controller.AnimationController$ISoundListener
- *  software.bernie.geckolib3.core.event.predicate.AnimationEvent
- *  software.bernie.geckolib3.core.manager.AnimationData
- */
 package com.trolmastercard.sexmod;
+
 
 import com.trolmastercard.sexmod.ClientProxy;
 import com.trolmastercard.sexmod.Main;
@@ -691,7 +634,7 @@ lbl-1000:
         if (this.R == null || this.getDistance(this.R.getX(), this.R.getY(), this.R.getZ()) > this.l() || this.Y > 100) {
             int n = (this.getRNG().nextBoolean() ? 1 : -1) * this.getRNG().nextInt(5);
             int n2 = (this.getRNG().nextBoolean() ? 1 : -1) * this.getRNG().nextInt(5);
-            int n3 = cj.a(this.world, this.getPosition().getX() + n, this.getPosition().getZ() + n2);
+            int n3 = cj.getTerrainY(this.world, this.getPosition().getX() + n, this.getPosition().getZ() + n2);
             this.R = new BlockPos(this.getPosition().getX() + n, n3, this.getPosition().getZ() + n2);
             this.Y = 0;
         }
@@ -2079,129 +2022,334 @@ lbl-1000:
     private static Exception a(Exception exception) {
         return exception;
     }
+    
+    static class e3.a.a {
+        static final /* synthetic */ int[] a;
 
-    public static class c$c {
+        static {
+            a = new int[fp.values().length];
+            try {
+                e3.a.a.a[fp.PAIZURI_IDLE.ordinal()] = 1;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PAIZURI_SLOW.ordinal()] = 2;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_SLOW_0.ordinal()] = 3;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_SLOW_2.ordinal()] = 4;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.NELSON_SLOW.ordinal()] = 5;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PAIZURI_FAST.ordinal()] = 6;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PAIZURI_FAST_CONTINUES.ordinal()] = 7;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_1.ordinal()] = 8;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_FAST_2.ordinal()] = 9;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.NELSON_FAST.ordinal()] = 10;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_FAST_0.ordinal()] = 11;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.NULL.ordinal()] = 12;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.SHOULDER_IDLE.ordinal()] = 13;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PICK_UP.ordinal()] = 14;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.SIT.ordinal()] = 15;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.RUN.ordinal()] = 16;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.CATCH.ordinal()] = 17;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.CATCH_BJ.ordinal()] = 18;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.CATCH_BJ_IDLE.ordinal()] = 19;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.START_THROWING.ordinal()] = 20;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.THROWN.ordinal()] = 21;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PAIZURI_START.ordinal()] = 22;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.PAIZURI_CUM.ordinal()] = 23;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.JUMP_0.ordinal()] = 24;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.JUMP_1.ordinal()] = 25;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.JUMP_2.ordinal()] = 26;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_INTRO_0.ordinal()] = 27;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_INTRO_1.ordinal()] = 28;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_INTRO_2.ordinal()] = 29;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_CUM_0.ordinal()] = 30;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_CUM_1.ordinal()] = 31;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.BREEDING_CUM_2.ordinal()] = 32;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.VANISH.ordinal()] = 33;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.AWAIT_PICK_UP.ordinal()] = 34;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.STAND_UP.ordinal()] = 35;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.NELSON_INTRO.ordinal()] = 36;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+            try {
+                e3.a.a.a[fp.NELSON_CUM.ordinal()] = 37;
+            }
+            catch (NoSuchFieldError noSuchFieldError) {
+                // empty catch block
+            }
+        }
+    
+    }
+    
+    class e3.b.b extends ArrayList<Integer> {
+        e3.b.b() {
+            this.add(4);
+            this.add(3);
+            this.add(3);
+            this.add(16);
+            this.add(16);
+            this.add(6);
+            this.add(g5.values().length);
+            this.add(by.values().length);
+            this.add(eh.values().length);
+        }
+    }
+    
+    public static class e3.c.c {
         static Minecraft a = null;
-
-        /*
-         * WARNING - Removed back jump from a try to a catch block - possible behaviour change.
-         * Unable to fully structure code
-         * Enabled aggressive block sorting
-         * Enabled unnecessary exception pruning
-         * Enabled aggressive exception aggregation
-         */
+        
         @SideOnly(value=Side.CLIENT)
         @SubscribeEvent
-        public void a(TickEvent.ClientTickEvent var1_1) {
-            block12: {
-                if (var1_1.phase == TickEvent.Phase.START) {
-                    return;
-                }
-                var2_2 = new ArrayList<e3>();
-                try lbl-1000:
-                // 4 sources
-
-                {
-                    for (em var4_5 : em.ad()) {
-                        if (!var4_5.world.isRemote) {
-                            continue;
+        public void a(TickEvent.ClientTickEvent tickEvent) {
+            if (tickEvent.phase != Phase.START) {
+                ArrayList list = new ArrayList();
+                Iterator iter;
+                try {
+                    iter = em.ad().iterator();
+                    while (iter.hasNext()) {
+                        em em2 = (em)iter.next();
+                        if (em2.world.isRemote && em2 instanceof e3) {
+                            e3 e32 = (em)em2;
+                            UUID uid = e32.e();
+                            if (uid != null) {
+                                EntityPlayer ePlayer = e32.world.getPlayerEntityByUUID(uid);
+                                if (ePlayer != null && ePlayer.dimension != e32.dimension) {
+                                    list.add(e32);
+                                }
+                            }
                         }
-                        ** GOTO lbl-1000
                     }
-                    break block12;
+                } catch (ConcurrentModificationException e) {
+                    // empty catch
                 }
-                catch (ConcurrentModificationException var3_4) {
-                    // empty catch block
-                    break block12;
+                listIter listIter = list.iterator();
+                
+                while (listIter.hasNext()) {
+                    e3 e33 = (e3)listIter.next();
+                    e33.a((UUID)null);
+                    e33.e((UUID)null);
+                    e33.setDead();
                 }
-lbl-1000:
-                // 1 sources
-
-                {
-                    if (!(var4_5 instanceof e3) || (var6_9 = (var5_8 = (e3)var4_5).e()) == null || (var7_10 = var5_8.world.getPlayerEntityByUUID(var6_9)) == null || var7_10.dimension == var5_8.dimension) ** GOTO lbl-1000
-                    var2_2.add(var5_8);
-                }
-                ** GOTO lbl-1000
-            }
-            var3_3 = var2_2.iterator();
-            while (true) {
-                if (!var3_3.hasNext()) {
-                    return;
-                }
-                var4_7 = (e3)var3_3.next();
-                var4_7.a((UUID)null);
-                var4_7.e((UUID)null);
-                var4_7.setDead();
             }
         }
-
-        /*
-         * WARNING - Removed back jump from a try to a catch block - possible behaviour change.
-         * Unable to fully structure code
-         * Enabled aggressive block sorting
-         * Enabled unnecessary exception pruning
-         * Enabled aggressive exception aggregation
-         */
+        
         @SubscribeEvent
-        public void a(PlayerEvent.PlayerChangedDimensionEvent var1_1) {
-            block8: {
-                var2_2 = var1_1.player;
-                var3_3 = var2_2.getPersistentID();
-                var4_4 = var1_1.toDim;
-                var5_5 = var2_2.world;
-                var6_6 = null;
-                try lbl-1000:
-                // 4 sources
-
-                {
-                    for (em var8_9 : em.ad()) {
-                        if (var8_9.world.isRemote) {
-                            continue;
+        public void a(PlayerChangedDimensionEvent dEvent) {
+            EntityPlayer ePlayer = dEvent.player;
+            UUID uid = ePlayer.getPersistentID();
+            int n1 = dEvent.toDim;
+            World world = ePlayer.world;
+            e3 e32 = null;
+            try {
+                Iterator iter = em.ad().iterator();
+                while(iter.hasNext()) {
+                    em em2 = (em)iter.next();
+                    if (!em2.world.isRemote && em2 instanceof e3) {
+                        e3 e33 = (e3)em2;
+                        if (uid.equals(e33.e())) {
+                            String str = e33.C();
+                            String str2 = e33.F();
+                            e32 = e33;
+                            e33.a((UUID)null);
+                            e33.e((UUID)null);
+                            e33.b(fp.NULL);
+                            e3 e34 = new e3(world);
+                            e34.dimension = n1;
+                            e34.forceSpawn = true;
+                            e34.f(str);
+                            e34.e(str2);
+                            e3.access$000(e34).set(e3.ac, true);
+                            world.spawnEntity(e34);
+                            e34.setPositionAndUpdate(ePlayer.posX, ePlayer.posY, ePlayer.posZ);
+                            e34.a(uid);
+                            e34.b(fp.SHOULDER_IDLE);
+                            break;
                         }
-                        ** GOTO lbl-1000
+                        
                     }
-                    break block8;
                 }
-                catch (ConcurrentModificationException var7_8) {
-                    // empty catch block
-                    break block8;
-                }
-lbl-1000:
-                // 1 sources
-
-                {
-                    if (!(var8_9 instanceof e3)) ** GOTO lbl-1000
-                }
-                {
-                    var9_10 = (e3)var8_9;
-                    if (!var3_3.equals(var9_10.e())) ** GOTO lbl-1000
-                }
-                {
-                    var10_11 = var9_10.C();
-                    var11_12 = var9_10.F();
-                    var6_6 = var9_10;
-                    var6_6.a((UUID)null);
-                    var6_6.e((UUID)null);
-                    var6_6.b(fp.NULL);
-                    var12_13 = new e3(var5_5);
-                    var12_13.dimension = var4_4;
-                    var12_13.forceSpawn = true;
-                    var12_13.f(var10_11);
-                    var12_13.e(var11_12);
-                    e3.access$000(var12_13).set(e3.aC, (Object)true);
-                    var5_5.spawnEntity((Entity)var12_13);
-                    var12_13.setPositionAndUpdate(var2_2.posX, var2_2.posY, var2_2.posZ);
-                    var12_13.a(var3_3);
-                    var12_13.b(fp.SHOULDER_IDLE);
-                }
+            } catch (ConcurrentModificationException e) {
+                // empty catch 
             }
-            if (var6_6 == null) {
-                return;
+            if (e32 != null) {
+                world.removeEntity(e32);
+                em.ad().remove(e32);
             }
-            var5_5.removeEntity(var6_6);
-            em.ad().remove(var6_6);
         }
-
+        
         @SubscribeEvent
         public void a(LivingAttackEvent livingAttackEvent) {
             block2: {
@@ -2256,7 +2404,6 @@ lbl-1000:
             }
             Minecraft.getMinecraft().displayGuiScreen((GuiScreen)new ea(em2));
         }
-
         private static ConcurrentModificationException a(ConcurrentModificationException concurrentModificationException) {
             return concurrentModificationException;
         }

@@ -690,7 +690,7 @@ public class ax {
                     EntityPlayerMP entityPlayerMP;
                     a$a2 = (a$a)entry.getValue();
                     if (!a$a2.b.contains(blockPos)) continue;
-                    object2 = cj.a(blockPos, iBlockState);
+                    object2 = cj.getOtherBedHalf(blockPos, iBlockState);
                     a$a2.b.remove(blockPos);
                     a$a2.b.remove(object2);
                     object = ax.b((UUID)entry.getKey());

@@ -1,0 +1,91 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  javax.vecmath.Vector3f
+ *  net.minecraft.entity.EntityLivingBase
+ *  net.minecraft.util.math.Vec3d
+ *  software.bernie.geckolib3.core.processor.IBone
+ *  software.bernie.geckolib3.geo.render.built.GeoBone
+ */
+package com.trolmastercard.sexmod;
+
+import com.trolmastercard.sexmod.b6;
+import com.trolmastercard.sexmod.c3;
+import com.trolmastercard.sexmod.cj;
+import com.trolmastercard.sexmod.ck;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import javax.vecmath.Vector3f;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.util.math.Vec3d;
+import software.bernie.geckolib3.core.processor.IBone;
+import software.bernie.geckolib3.geo.render.built.GeoBone;
+
+public class gx {
+    public static final Vec3d c = new Vec3d(0.95, 0.65, 0.85);
+    public static final Vec3d e = new Vec3d(0.0, 0.2, 0.3);
+    public static final float f = 0.1f;
+    public static final HashSet<String> a = new HashSet<String>(){
+        {
+            this.add("boobs");
+            this.add("booty");
+            this.add("vagina");
+            this.add("fuckhole");
+        }
+    };
+    protected static HashMap<c3, HashMap<String, Boolean>> d = new HashMap();
+    public static Vec3d b;
+
+    static boolean a(c3 c32, GeoBone geoBone) {
+        HashMap<String, Boolean> hashMap = d.get(c32);
+        if (hashMap == null) {
+            hashMap = new HashMap();
+            boolean bl = c32.a(c32.a(), geoBone);
+            hashMap.put(geoBone.getName(), bl);
+            d.put(c32, hashMap);
+            return bl;
+        }
+        Boolean bl = hashMap.get(geoBone.getName());
+        if (bl == null) {
+            bl = c32.a(c32.a(), geoBone);
+            hashMap.put(geoBone.getName(), bl);
+            d.put(c32, hashMap);
+            return bl;
+        }
+        return bl;
+    }
+
+    public static Vec3d a(c3 c32, GeoBone geoBone, Vec3d vec3d, Vector3f vector3f) {
+        if (!gx.a(c32, geoBone)) {
+            return vec3d;
+        }
+        return gx.a(vec3d, vector3f, b);
+    }
+
+    public static Vec3d a(Vec3d vec3d, Vector3f vector3f, Vec3d vec3d2) {
+        double d = ck.a(vector3f, vec3d2);
+        double d2 = b6.e(Math.abs(d));
+        return b6.a(vec3d, d > 0.0 ? c : e, d2 *= (double)0.1f);
+    }
+
+    public static void a(EntityLivingBase entityLivingBase, float f) {
+        b = cj.a(entityLivingBase, f);
+    }
+
+    public static void a(List<IBone> list, HashSet<String> hashSet, c3 c32) {
+        if (d.get(c32) != null) {
+            return;
+        }
+        HashMap<String, Boolean> hashMap = new HashMap<String, Boolean>();
+        for (IBone iBone : list) {
+            hashMap.put(iBone.getName(), c32.a(hashSet, (GeoBone)iBone));
+        }
+        d.put(c32, hashMap);
+    }
+
+    private static RuntimeException a(RuntimeException runtimeException) {
+        return runtimeException;
+    }
+}
