@@ -61,7 +61,8 @@ implements IWorldGenerator {
     final List<StructRecord> nbtInfo = new ArrayList<StructRecord>();
     // was private static g3 g = null;
     private static StructureGenerator instance = null;
-    static boolean c = true;
+    // was static boolean c = true;
+    static boolean genGuard = true;
     
     //was public static g3 b()
     public static StructureGenerator getInstance() {
@@ -92,14 +93,16 @@ implements IWorldGenerator {
     }
 
     @SubscribeEvent
-    public void a(WorldEvent.Save save) {
+    // was public void a(WorldEvent.Save save) {
+    public void onWorldSave(WorldEvent.Save save) {
         World world = save.getWorld();
         world.getMapStorage().setData(genTag, (WorldSavedData)this);
         this.markDirty();
     }
 
     @SubscribeEvent
-    public void a(WorldEvent.Load load) {
+    // was public void a(WorldEvent.Load load) {
+    public void onWorldLoad(WorldEvent.Load load) {
         World world = load.getWorld();
         world.getMapStorage().getOrLoadData(StructureGenerator.class, genTag);
     }
@@ -133,10 +136,6 @@ implements IWorldGenerator {
     static String combinePos(int a, int b) {
         return a + "|" + b;
     }
-    // simplified helper above
-    static String a(e1 e12) {
-        return e12.c + "|" + e12.b;
-    }
     static int[] parsePos(String string) {
         String[] parts = string.split("\\|");
         return new int[] {
@@ -144,13 +143,8 @@ implements IWorldGenerator {
             Integer.parseInt(parts[1])
         };
     }
-    // simplified helper above
-    static e1 a(String string) {
-        String[] stringArray = string.split("\\|");
-        // why have 2 ints stored as a string??????????????????????
-        return new e1(Integer.parseInt(stringArray[0]), Integer.parseInt(stringArray[1]));
-    }
-
+    
+    // forge calls this generate
     public void generate(Random random, int n, int n2, World world, IChunkGenerator iChunkGenerator, IChunkProvider iChunkProvider) {
         if (!shouldGenerate) {
             return;
@@ -159,12 +153,29 @@ implements IWorldGenerator {
             return;
         }
         // working on this
-        this.b(world, random, n, n2);
-        this.a(world, random, n, n2);
-        this.a(random, n, n2, world);
+        // was another method this.b(world, random, n, n2)
+        if (random.nextDouble() <= (double)0.004f) {
+            int n3 = n * 16 + 8;
+            int n4 = n2 * 16 + 8;
+            int n5 = cj.a(world, n3, n4);
+            if (!(world.getBlockState(new BlockPos(n3, n5, n4)).getMaterial().isLiquid())) {
+                ax.a(world, new Vec3d((double)n3, (double)n5, (double)n4));
+        }
+        
+        this.trySpawnGoblinStructure(world, random, n, n2);
+        
+        // was another method this.a(random, n, n2, world);
+        
+        if (genGuard) {
+            genGuard = false;
+            for (StructConfig struct: this.structConfig) {
+                this.a(struct, random, n, n2, world);
+            }
+            genGuard = true;
+        }
     }
 
-    void a(Random random, int n, int n2, World world) {
+   /* void a(Random random, int n, int n2, World world) {
         if (!c) {
             return;
         }
@@ -173,74 +184,76 @@ implements IWorldGenerator {
             this.a(struct, random, n, n2, world);
         }
         c = true;
-    }
-
+    } */
+    
     void a(StructConfig struct, Random random, int n, int n2, World world) {
-        int n3;
-        int n4;
-        int n5;
-        int n6;
-        int n7;
-        int n8;
-        for (StructRecord StructRecord2 : this.nbtInfo) {
-            int n9 = n8 = StructRecord2.name.equals(struct.name) ? 156 : 62;
+        for (StructRecord record : this.nbtInfo) {
+            int minDistance = record.name.equals(struct.name) ? 156 : 62;
             float distance = (float)Math.sqrt(
-                (n - StructRecord2.x) * (n - StructRecord2.x) +
-                (n2 - StructRecord2.y) * (n2 - StructRecord2.y)
+                (n - record.x) * (n - record.x) +
+                (n2 - record.y) * (n2 - record.y)
             );
-            if ((distance < (float)n8)) return;
+            if ((distance < (float)minDistance)) return;
         }
-        int n10 = struct.dimensions.getX();
-        n8 = n * 16 + (16 - n10) / 2;
-        Biome biome = world.provider.getBiomeForCoords(new BlockPos(n8, 80, n7 = n2 * 16 + (16 - (n6 = struct.dimensions.getZ())) / 2));
-        if (!struct.spawnBiomes.contains(biome)) {
+        int tempX = struct.dimensions.getX();
+        int tempZ = struct.dimensions.getZ();
+        int startX = n * 16 + (16 - tempX) / 2;
+        int startZ = n2 * 16 + (16 - tempZ) /2;
+        BlockPos bp = new BlockPos(startX, 80, startZ);
+        Biome currentBiome = world.provider.getBiomeForCoords(bp);
+        
+        if (!struct.spawnBiomes.contains(currentBiome)) {
             return;
         }
-        int n11 = Integer.MIN_VALUE;
-        int n12 = Integer.MAX_VALUE;
-        for (n5 = n8; n5 < n8 + n10; ++n5) {
-            for (n4 = n7; n4 < n7 + n6; ++n4) {
-                n3 = cj.a(world, n5, n4);
-                if (struct.requiresLand && world.getBlockState(new BlockPos(n5, n3, n4)).getBlock() == Blocks.WATER) {
+        int maxY = Integer.MIN_VALUE;
+        int minY = Integer.MAX_VALUE;
+        int x;
+        int z;
+        for (x = startX; x < startX + tempX; x++) {
+            for (z = startZ; z < startZ + tempZ; z++) {
+                int y = cj.a(world, x, z);
+                BlockPos bpWater = new BlockPos(x, y, z);
+                if (struct.requiresLand && world.getBlockState(bpWater).getBlock() == Blocks.WATER) {
                     return;
                 }
-                if (n3 > n11) {
-                    n11 = n3;
+                if (y > maxY) {
+                    maxY = y;
                 }
-                if (n3 >= n12) continue;
-                n12 = n3;
+                if (y >= minY) continue;
+                minY = y;
             }
         }
-        if (n11 - n12 > struct.maxTerrainVariation) {
+        if (maxY - minY > struct.maxTerrainVariation) {
             return;
         }
-        n5 = n11;
         this.nbtInfo.add(new StructRecord(n, n2, struct.name));
-        struct.generate(world, random, new BlockPos(n8, n5, n7));
+        struct.generate(world, random, new BlockPos(startX, maxY, startZ));
         if (!struct.requiresLand) {
             return;
         }
-        n4 = 1;
-        n3 = n5 - 1;
-        while (n4 != 0) {
-            n4 = 0;
-            Vec3i vec3i = new Vec3i(n10 + 2, 0, n6 + 2);
-            --n7;
-            for (int i = --n8; i < n8 + vec3i.getX(); ++i) {
-                for (int j = n7; j < n7 + vec3i.getZ(); ++j) {
-                    BlockPos blockPos = new BlockPos(i, n3, j);
-                    IBlockState iBlockState = world.getBlockState(blockPos);
-                    if (!iBlockState.getBlock().isPassable((IBlockAccess)world, blockPos)) continue;
-                    iBlockState = world.canSeeSky(blockPos) ? Blocks.GRASS.getDefaultState() : Blocks.DIRT.getDefaultState();
-                    world.setBlockState(blockPos, iBlockState);
-                    n4 = 1;
+        boolean flag = true;
+        int ty = maxY - 1;
+        while (flag) {
+            flag = false;
+            Vec3i vec3i = new Vec3i(tempX + 2, 0, tempZ + 2);
+            --startZ;
+            --startX;
+            for (int i = startX; i < startX + vec3i.getX(); i++) {
+                for (int j = startZ; j < startZ + vec3i.getZ(); j++) {
+                    BlockPos bp2 = new BlockPos(i, ty, j);
+                    IBlockState blockState = world.getBlockState(bp2);
+                    if (!blockState.getBlock().isPassable((IBlockAccess)world, bp2)) continue;
+                    blockState = world.canSeeSky(bp2) ? Blocks.GRASS.getDefaultState() : Blocks.DIRT.getDefaultState();
+                    world.setBlockState(bp2, blockState);
+                    flag = true;
                 }
             }
-            --n3;
+            --ty;
         }
     }
+    
 
-    void b(World world, Random random, int n, int n2) {
+    /*void b(World world, Random random, int n, int n2) {
         if (random.nextDouble() > (double)0.004f) {
             return;
         }
@@ -251,9 +264,10 @@ implements IWorldGenerator {
             return;
         }
         ax.a(world, new Vec3d((double)n3, (double)n5, (double)n4));
-    }
+    }*/
 
-    void a(World world, Random random, int n, int n2) {
+    //was void a(World world, Random random, int n, int n2) {
+    void trySpawnGoblinStructure(World world, Random random, int n, int n2) {
         Vec3d vec3d;
         Material material;
         BlockPos blockPos;
@@ -262,6 +276,7 @@ implements IWorldGenerator {
         int n5 = random.nextInt(255);
         BlockPos blockPos2 = new BlockPos(n3, n5, n4);
         ArrayList<BlockPos> arrayList = new ArrayList<BlockPos>();
+        
         for (int i = 0; i <= e3.ah.getX(); ++i) {
             for (int j = -1; j <= e3.ah.getY(); ++j) {
                 for (int k = 0; k <= e3.ah.getZ(); ++k) {
@@ -271,7 +286,15 @@ implements IWorldGenerator {
                     if (!(bl || j != -1 && j != e3.ah.getY())) {
                         return;
                     }
-                    if (i != 0 && i != e3.ah.getX() && k != 0 && k != e3.ah.getZ() || j != 0 || !world.isAirBlock(blockPos) || !world.isAirBlock(blockPos.up())) continue;
+                    if (
+                        i != 0 &&
+                        i != e3.ah.getX() && 
+                        k != 0 && 
+                        k != e3.ah.getZ() || 
+                        j != 0 || 
+                        !world.isAirBlock(blockPos) || 
+                        !world.isAirBlock(blockPos.up())
+                    ) continue;
                     arrayList.add(blockPos);
                 }
             }
@@ -285,7 +308,13 @@ implements IWorldGenerator {
             BlockPos blockPos4;
             blockPos = blockPos4 = (BlockPos)rotation.next();
             material = blockPos2.add(6, 0, 6);
-            if (Math.abs((blockPos = blockPos.subtract((Vec3i)material)).getX()) == Math.abs(blockPos.getZ()) || Math.abs(blockPos.getX()) == Math.abs(blockPos.getZ()) - 1 || Math.abs(blockPos.getX()) - 1 == Math.abs(blockPos.getZ())) continue;
+            if (
+                Math.abs(
+                    (blockPos = blockPos.subtract((Vec3i)material)).getX()
+                ) == Math.abs(blockPos.getZ()) || 
+                Math.abs(blockPos.getX()) == Math.abs(blockPos.getZ()) - 1 || 
+                Math.abs(blockPos.getX()) - 1 == Math.abs(blockPos.getZ())
+            ) continue;
             blockPos3 = blockPos;
             break;
         }

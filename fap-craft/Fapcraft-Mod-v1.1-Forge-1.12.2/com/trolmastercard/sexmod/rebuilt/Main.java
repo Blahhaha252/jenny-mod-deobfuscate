@@ -70,7 +70,7 @@ public class Main {
             ax.a();
             ff.aY.clear();
             v.a();
-            g3.b().a();
+            StructureGenerator.getInstance.clearNBTInfo();
             fs.a();
             br.e = false;
             bj.a();
